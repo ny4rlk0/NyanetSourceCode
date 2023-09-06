@@ -1,0 +1,1 @@
+NyanetServiceFramework.exe UpUpDownDownLeftRightLeftRightBAStart

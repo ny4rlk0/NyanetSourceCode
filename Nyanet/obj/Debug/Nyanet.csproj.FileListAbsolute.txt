@@ -1,0 +1,15 @@
+C:\Users\asus\source\repos\Nyanet\bin\Debug\Nyanet.exe.config
+C:\Users\asus\source\repos\Nyanet\bin\Debug\Nyanet.exe
+C:\Users\asus\source\repos\Nyanet\bin\Debug\Nyanet.pdb
+C:\Users\asus\source\repos\Nyanet\obj\Debug\Nyanet.csproj.AssemblyReference.cache
+C:\Users\asus\source\repos\Nyanet\obj\Debug\Nyanet.Form1.resources
+C:\Users\asus\source\repos\Nyanet\obj\Debug\Nyanet.Properties.Resources.resources
+C:\Users\asus\source\repos\Nyanet\obj\Debug\Nyanet.csproj.GenerateResource.cache
+C:\Users\asus\source\repos\Nyanet\obj\Debug\Nyanet.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\Nyanet\obj\Debug\Nyanet.exe
+C:\Users\asus\source\repos\Nyanet\obj\Debug\Nyanet.pdb
+C:\Users\asus\source\repos\Nyanet\bin\Debug\Nyanet.exe.manifest
+C:\Users\asus\source\repos\Nyanet\bin\Debug\Nyanet.application
+C:\Users\asus\source\repos\Nyanet\obj\Debug\Nyanet.TrustInfo.xml
+C:\Users\asus\source\repos\Nyanet\obj\Debug\Nyanet.exe.manifest
+C:\Users\asus\source\repos\Nyanet\obj\Debug\Nyanet.application
