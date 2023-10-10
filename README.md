@@ -7,6 +7,7 @@
 <br>https://github.com/basil00/Divert
 <br>pacman -S mingw-w64-ucrt-x86_64-gcc
 <br>make -d -E BIT64=1 WINDIVERTHEADERS=/WinDivert/include/ WINDIVERTLIBS=/WinDivert/x64/
+<br>make clean
 
 
 
