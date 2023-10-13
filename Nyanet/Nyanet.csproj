@@ -29,7 +29,7 @@
     <PublisherName>Nyarlko Software Solutions</PublisherName>
     <SuiteName>Nyanet</SuiteName>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationRevision>44</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -83,6 +83,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression.FileSystem" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -142,11 +143,6 @@
   <ItemGroup>
     <Content Include="icon.ico" />
     <None Include="Resources\ProgramArkaplan2.png" />
-    <None Include="Resources\ProgramArkaplan.png" />
-    <None Include="Resources\ProgramBackgroundWhite.png" />
-    <None Include="Resources\ProgramBackgroundTransparent.png" />
-    <None Include="Resources\ProgramBackground.png" />
-    <None Include="Resources\Patreon4.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
