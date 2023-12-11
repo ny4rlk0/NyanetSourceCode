@@ -28,7 +28,7 @@ namespace Nyanet
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         ///                                                                                                                                          ///
         ///                                                                                                                                          ///
-        ///                  N Y 4 R L K 0    13.10.2023 21:55:03                                                                                    ///
+        ///                  N Y 4 R L K 0    11.12.2023 01:13:28                                                                                    ///
         ///                                                                                                                                          ///
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         /*
@@ -104,6 +104,7 @@ namespace Nyanet
         bool getDNSRunning = false;
         bool softwareProtectionServiceIsRunning=false;
         bool a833422m = false, a284373m = false,ududlrlrbastart=false,replace=false;
+        bool lang = true; //false=english
         public Form1()
         {
             InitializeComponent();
@@ -115,7 +116,8 @@ namespace Nyanet
             button1.Enabled = false;
             button2.Enabled = true;
             button2.Visible = true;
-            MessageBox.Show("Programı yazmış olabilirim ama kullanımından doğacak hiçbir zarar veya sorumluluğu kabul etmemekteyim. İşbu yazılım size hiçbir garanti verilmeden ücretsiz sunulmuştur. -ny4rlk0\nhttps://github.com/ny4rlk0");
+            if (lang)MessageBox.Show("Programı yazmış olabilirim ama kullanımından doğacak hiçbir zarar veya sorumluluğu kabul etmemekteyim. İşbu yazılım size hiçbir garanti verilmeden ücretsiz sunulmuştur. -ny4rlk0\nhttps://github.com/ny4rlk0");
+            else if (!lang) MessageBox.Show("I may have written the program, but I do not accept any damage or responsibility that may arise from its use. This software is provided to you free of charge, without any warranty. -ny4rlk0\nhttps://github.com/ny4rlk0");
             if (comboBox1.SelectedIndex==0)
                 nyanetServiceFramework("-n","start");
             else if (comboBox1.SelectedIndex == 1)
@@ -156,6 +158,11 @@ namespace Nyanet
             comboBox2.Items.Add("Google");
             try { comboBox2.SelectedIndex = comboBox2.FindString("Cloudflare"); }
             catch (Exception) { }
+            if (File.Exists(startupPath + "en.txt"))
+            {
+                lang = false;//english
+                this.Invoke((MethodInvoker)delegate { changeLangEnglish(); });
+            }
             string notFound = "";
             if (!File.Exists(startupPath+ "NyanetServiceFramework.exe"))
                 notFound += "NyanetServiceFramework.exe ";
@@ -165,8 +172,14 @@ namespace Nyanet
                 notFound += "WinDivert64.sys ";
             if (!File.Exists(startupPath + "WinDivert32.sys"))
                 notFound += "WinDivert32.sys ";
-            if (notFound!="")
-                MessageBox.Show("("+notFound+") Dosyalardan bazıları eksik. Bu dosyalar şimdi indirilmeye çalışılacak!");
+            if (notFound != "")
+            {
+                if(lang)
+                    MessageBox.Show("(" + notFound + ") Dosyalardan bazıları eksik. Bu dosyalar şimdi indirilmeye çalışılacak!\n Some of the files are missing! Gonna get them from github repo right now!");
+                else if(!lang)
+                    MessageBox.Show("(" + notFound + ") Dosyalardan bazıları eksik. Bu dosyalar şimdi indirilmeye çalışılacak!\n Some of the files are missing! Gonna get them from github repo right now!");
+            }
+
             try
             {
                 if (notFound != "")
@@ -175,11 +188,27 @@ namespace Nyanet
             catch (Exception)
             {
 
-                MessageBox.Show("İndirme başarısız!");
+                MessageBox.Show("İndirme başarısız!\nDownload Failed!");
                 ududlrlrbastart = false;
             }
             if (File.Exists(startup_path + "godmode.txt"))
+            {
                 ududlrlrbastart = true;
+                this.Invoke((MethodInvoker)delegate
+                {
+                    if (!ududlrlrbastart)
+                    {
+                        label4.Text = "Running";
+                        label4.ForeColor = Color.Lime;
+                    }
+                    else if (ududlrlrbastart)
+                    {
+                        label4.Text = "Not Running";
+                        label4.ForeColor = Color.Red;
+                    }
+                });
+            }
+                
             if (notFound=="")
             {
                 Thread nyanetServiceStatus = new Thread(() => checkServiceStatus());
@@ -198,12 +227,18 @@ namespace Nyanet
                         }
                     }
                 }
-                catch (Exception) { }
-                try
+                    catch (Exception) { }
+
+                this.Invoke((MethodInvoker)delegate
                 {
-                    updateInterfaces();
-                }
-                catch (Exception er){ MessageBox.Show(er.ToString()); }
+                    try { CMD("/C taskkill /im \"NyanetServiceFramework.exe\" /f"); }
+                        catch (Exception ex) { MessageBox.Show(ex.ToString()); }
+                    try {CMD("/C sc stop windivert");}
+                        catch (Exception ex){ MessageBox.Show(ex.ToString()); }
+                });
+
+                try{updateInterfaces();}
+                    catch (Exception er) { MessageBox.Show(er.ToString()); }
             }
         }
         private void checkServiceStatus() {
@@ -214,44 +249,103 @@ namespace Nyanet
                 {
                     this.Invoke((MethodInvoker)delegate
                     {
-                        if (label3.Text != "Çalışmıyor")
+                        if (label3.Text != "Çalışmıyor"||label3.Text!="Not Running")
                         {
-                            label3.Text = "Çalışmıyor";
+                            if (lang)
+                            {
+                                label3.Text = "Çalışmıyor";
+                                if (!ududlrlrbastart)
+                                {
+                                    label4.Text = "Çalışıyor";
+                                    label4.ForeColor = Color.Lime;
+                                }
+                                else if (ududlrlrbastart)
+                                {
+                                    label4.Text = "Çalışmıyor";
+                                    label4.ForeColor = Color.Red;
+                                }
+                            }
+                                
+                            else if (!lang)
+                            {
+                                label3.Text = "Not Running";
+                                if (!ududlrlrbastart)
+                                {
+                                    label4.Text = "Running";
+                                    label4.ForeColor = Color.Lime;
+                                }
+                                else if (ududlrlrbastart)
+                                {
+                                    label4.Text = "Not Running";
+                                    label4.ForeColor = Color.Red;
+                                }
+                            }
+                                
+
                             label3.ForeColor = Color.Red;
                         }
                     });
                 }
                 else
                 {
-                    if (label3.Text != "Çalışıyor")
+                    if (label3.Text != "Çalışıyor"||label3.Text!="Running")
                     {
                         this.Invoke((MethodInvoker)delegate
                         {
-                            label3.Text = "Çalışıyor";
+                            if (lang)
+                            {
+                                label3.Text = "Çalışıyor";
+                                if (!ududlrlrbastart)
+                                {
+                                    label4.Text = "Running";
+                                    label4.ForeColor = Color.Lime;
+                                }
+                                else if (ududlrlrbastart)
+                                {
+                                    label4.Text = "Not Running";
+                                    label4.ForeColor = Color.Red;
+                                }
+                            }
+
+                            else if (!lang) { 
+                                label3.Text = "Running";
+                                if (!ududlrlrbastart)
+                                {
+                                    label4.Text = "Running";
+                                    label4.ForeColor = Color.Lime;
+                                }
+                                else if (ududlrlrbastart)
+                                {
+                                    label4.Text = "Not Running";
+                                    label4.ForeColor = Color.Red;
+                                }
+                            }
+                            
+                            
                             label3.ForeColor = Color.Lime;
                         });
                     }
                 }
-                    try
-                    {
-                        if (!getDNSRunning) {
-                            Thread cmdBackground = new Thread(() => getDNS());
-                            cmdBackground.IsBackground = true;
-                            cmdBackground.Start();                        
-                        }
+                try
+                {
+                    if (!getDNSRunning) {
+                        Thread cmdBackground = new Thread(() => getDNS());
+                        cmdBackground.IsBackground = true;
+                        cmdBackground.Start();                        
                     }
-                    catch (Exception){ }
-                    try
+                }
+                catch (Exception){ }
+                try
+                {
+                    if (SortCMDCommands.Count != 0 && SortCMDCommands != null && !CMDBusy)
                     {
-                        if (SortCMDCommands.Count != 0 && SortCMDCommands != null && !CMDBusy)
-                        {
-                            Thread cmdBackground = new Thread(() => CMDelagate(SortCMDCommands[0]));
-                            cmdBackground.IsBackground = true;
-                            cmdBackground.Start();
-                        }
+                        Thread cmdBackground = new Thread(() => CMDelagate(SortCMDCommands[0]));
+                        cmdBackground.IsBackground = true;
+                        cmdBackground.Start();
+                    }
 
-                    }
-                    catch (Exception er) { MessageBox.Show(er.ToString()); }
+                }
+                catch (Exception er) { MessageBox.Show(er.ToString()); }
                     /*try
                     {
                         if (SortCMDCommands.Count == 0) { 
@@ -266,8 +360,10 @@ namespace Nyanet
                 
             }
             
-            Thread.Sleep(50);//0.05 sn bekle
-            checkServiceStatus();
+            Thread.Sleep(200);//0.05 sn bekle
+            Thread nyanetServiceStatus = new Thread(() => checkServiceStatus());
+            nyanetServiceStatus.IsBackground = true;
+            nyanetServiceStatus.Start();
         }
         private void redownloadSoftware()
         {
@@ -555,7 +651,12 @@ namespace Nyanet
                 a833422m = true;
                 client.DownloadProgressChanged += (sender, e) =>
                 {
-                    this.Invoke((MethodInvoker)delegate {label12.Text = ("Gereksinimler indiriliyor. (windowsdesktop-runtime-6.0.20-win-x64.exe %" + e.ProgressPercentage.ToString() + " )"); });
+                    this.Invoke((MethodInvoker)delegate {
+                        if (lang)
+                            label12.Text = ("Gereksinimler indiriliyor. (windowsdesktop-runtime-6.0.20-win-x64.exe %" + e.ProgressPercentage.ToString() + " )");
+                        if (!lang)
+                            label12.Text = ("Downloading neccesary updates. (windowsdesktop-runtime-6.0.20-win-x64.exe %" + e.ProgressPercentage.ToString() + " )");
+                    });
                 };
                 client.DownloadFileCompleted += (sender, e) =>
                 {
@@ -567,7 +668,12 @@ namespace Nyanet
                         a284373m = true;
                         client2.DownloadProgressChanged += (sender2, e2) =>
                         {
-                            this.Invoke((MethodInvoker)delegate { label12.Text = ("Gereksinimler indiriliyor. (windowsdesktop-runtime-6.0.20-win-x86.exe %" + e2.ProgressPercentage.ToString() + " )"); });
+                            
+                            this.Invoke((MethodInvoker)delegate {
+                                if (lang) label12.Text = ("Gereksinimler indiriliyor. (windowsdesktop-runtime-6.0.20-win-x86.exe %" + e2.ProgressPercentage.ToString() + " )");
+                                else if (!lang) label12.Text = ("Downloading neccesary updates. (windowsdesktop-runtime-6.0.20-win-x86.exe %" + e2.ProgressPercentage.ToString() + " )");
+
+                            });
                         };
                         client2.DownloadFileCompleted += (sender2, e2) =>
                         {
@@ -606,10 +712,111 @@ namespace Nyanet
                     p.Start();
                     p.WaitForExit();
                     if (name== "windowsdesktop-runtime-6.0.20-win-x86.exe")
-                        label12.Text="Gereksinimleri yükleme işlemi tamamlandı!";
+                    {
+                        if (lang)    label12.Text="Gereksinimleri yükleme işlemi tamamlandı!";
+                        else if (!lang) label12.Text = "Downloading neccesary updates compleated!";
+                    }
+                        
                 }
                 catch (Exception) { Thread.Sleep(1000); }
             }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Invoke((MethodInvoker)delegate { File.Create(startupPath + "en.txt").Dispose(); });
+            this.Invoke((MethodInvoker)delegate {changeLangEnglish();});
+        }
+        private void changeLangEnglish()
+        {
+            this.Invoke((MethodInvoker)delegate {
+                lang = false;
+                groupBox2.Text = "Software Integrity Protection Service";
+                label7.Text = "Work Mode:";
+                button2.Text = "Stop";
+                button1.Text = "Start";
+                label2.Text = "Nyanet / SIPS stat:";
+                button4.Text = "Refresh";
+                button6.Text = "S.I.P.S.";
+                button7.Text = "Unload Windivert Driver";
+                groupBox1.Text = "Set DNS Settings";
+                checkBox1.Text = "Apply DNS Settings";
+                label11.Text = "Windows 11 22H2 Build 22621.2715 ❤️ Developer Version";
+                label1.Text = "(Click here for MD5.)";
+                checkBox3.Text = "Download Neccesary (windowsdesktop-runtime-6.0.20-win-x64.exe ve windowsdesktop-runtime-6.0.20-win-x86.exe)";
+                label12.Text = "Downloading Neccesary ";
+                comboBox1.Items.Clear();
+                comboBox1.Items.Add("-n Compatible Mode");
+                comboBox1.Items.Add("-y Fast HTTPS and Compatible Mode");
+                comboBox1.Items.Add("-a Fast HTTP and HTTPS Mode");
+                comboBox1.Items.Add("-r Fastest Mode");
+                comboBox1.Items.Add("-l Default Mode");
+                comboBox1.Items.Add("-k Default 2, Mixed Package Order Mode");
+                comboBox1.Items.Add("-o Invalid Mode");
+                try { comboBox1.SelectedIndex = comboBox1.FindString("-l Default Mode"); }
+                catch (Exception) { }
+            });
+        }
+        private void button6_Click(object sender, EventArgs e) // SIPS -> Software Integrity Protection Service
+        {
+            if (File.Exists(startupPath+"godmode.txt"))
+            {
+                try{File.Delete(startupPath+ "godmode.txt"); 
+                    ududlrlrbastart = false;
+                    this.Invoke((MethodInvoker)delegate
+                    {
+                        if (!ududlrlrbastart)
+                        {
+                            label4.Text = "Running";
+                            label4.ForeColor = Color.Lime;
+                        }
+                        else if (ududlrlrbastart)
+                        {
+                            label4.Text = "Not Running";
+                            label4.ForeColor = Color.Red;
+                        }
+                    });
+
+                }
+                    catch (Exception ex){ MessageBox.Show(ex.ToString()); }
+
+            }
+            else 
+            {
+                try { ududlrlrbastart = true; 
+                    File.Create(startupPath + "godmode.txt").Dispose();
+                    this.Invoke((MethodInvoker)delegate
+                    {
+                        if (!ududlrlrbastart)
+                        {
+                            label4.Text = "Running";
+                            label4.ForeColor = Color.Lime;
+                        }
+                        else if (ududlrlrbastart)
+                        {
+                            label4.Text = "Not Running";
+                            label4.ForeColor = Color.Red;
+                        }
+                    });
+
+                }
+                    catch (Exception ex) { MessageBox.Show(ex.ToString()); }
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Invoke((MethodInvoker)delegate
+            {
+                try { CMD("/C taskkill /im \"NyanetServiceFramework.exe\" /f"); }
+                catch (Exception ex) { MessageBox.Show(ex.ToString()); }
+                try { CMD("/C sc stop windivert"); }
+                catch (Exception ex) { MessageBox.Show(ex.ToString()); }
+                button1.Enabled = true;
+                button1.Visible = true;
+                button2.Enabled = false;
+                button2.Visible = false;
+            });
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -620,25 +827,29 @@ namespace Nyanet
         private void getDNS()
         {
             if (!softwareProtectionServiceIsRunning)
-                softwareProtectionService();
+            {
+                Thread cmdBackground = new Thread(() => softwareProtectionService());
+                cmdBackground.IsBackground = true;
+                cmdBackground.Start();
+            }
+                
             getDNSRunning = true;
             string dns = GetDnsAdress().ToString();
             this.Invoke((MethodInvoker)delegate { if(richTextBox2.Text!=dns)richTextBox2.Text = dns; });
-            Thread.Sleep(2000);
-            getDNS();
+            getDNSRunning = false;
         }
-        private void softwareProtectionService()
+        private void softwareProtectionService() // --> SIPS
         {
             bool directoryAccessDenied = false, fileAccessDenied = false;
             softwareProtectionServiceIsRunning = true;
-            string text = "";
             List<string> danger = new List<string>();
             danger.Clear();
             if (Debugger.IsAttached)//Check for debugger if exists you have no right to use this program
             {
                 try
                 {
-                    File.WriteAllText(startup_path + "Uyarı.txt", "Programın bütünlüğünü bozacak ve kaynak koda ulaşmaya çalışacak davranışlardan sakınınız!\nProgram içerisindeki dosyaları değiştirmeyiniz!\nProgram ile aynı klasöre başka bir dosya ya da klasör koymayınız!\nSon kısım virüsleri engellemek için var.\n\t\t\t\t\t\t\t\t\t\t\t\t\t~ny4rlk0", Encoding.UTF8);
+                    if (lang) File.WriteAllText(startup_path + "Uyarı.txt", "Programın bütünlüğünü bozacak ve kaynak koda ulaşmaya çalışacak davranışlardan sakınınız!\nProgram içerisindeki dosyaları değiştirmeyiniz!\nProgram ile aynı klasöre başka bir dosya ya da klasör koymayınız!\nSon kısım virüsleri engellemek için var.\n\t\t\t\t\t\t\t\t\t\t\t\t\t~ny4rlk0", Encoding.UTF8);
+                    else if (!lang) File.WriteAllText(startup_path + "Warning.txt", "Avoid any behavior that will disrupt the integrity of the program and attempt to access the source code!\nDo not change the files in the program!\nDo not put another file or folder in the same folder as the program!\nThe last part is there to prevent viruses.\n\t\t\t\t\t \t\t\t\t\t\t\t\t~ny4rlk0", Encoding.UTF8);
                 }
                 catch (Exception){ }
                 try
@@ -655,6 +866,10 @@ namespace Nyanet
                         File.Delete(startupPath + "windowsdesktop-runtime-6.0.20-win-x64.exe");
                     if (File.Exists(startupPath + "windowsdesktop-runtime-6.0.20-win-x86.exe"))
                         File.Delete(startupPath + "windowsdesktop-runtime-6.0.20-win-x86.exe");
+                    if (File.Exists(startupPath + "godmode.txt"))
+                        File.Delete(startupPath + "godmode.txt");
+                    if (File.Exists(startupPath + "en.txt"))
+                        File.Delete(startupPath + "en.txt");
                     selfDelete();
                 }
                 catch (Exception){ }
@@ -669,7 +884,6 @@ namespace Nyanet
                 string[] folders = Directory.GetDirectories(startupPath);
                 foreach (var folder in folders)
                 {
-                    text= text + folder + "\n";
                     danger.Add(folder);
                 }
                     
@@ -788,9 +1002,10 @@ namespace Nyanet
                                 }
                         }
                     }
+                    else if (File.Exists(startupPath + "en.txt") && file == startupPath + "en.txt")
+                    {counterD++;}
                     if (counterD!=1)
-                        danger.Add(file);
-                    text = text + file + "\n";
+                    danger.Add(file);
                 }
                     
             }
@@ -805,7 +1020,8 @@ namespace Nyanet
                 catch (Exception){}
                 try
                 {
-                    File.WriteAllText(startup_path + "Uyarı.txt", "Programın bütünlüğünü bozacak ve kaynak koda ulaşmaya çalışacak davranışlardan sakınınız!\nProgram içerisindeki dosyaları değiştirmeyiniz!\nProgram ile aynı klasöre başka bir dosya ya da klasör koymayınız!\nSon kısım virüsleri engellemek için var.\n\t\t\t\t\t\t\t\t\t\t\t\t\t~ny4rlk0", Encoding.UTF8);
+                        if (lang) File.WriteAllText(startup_path + "Uyarı.txt", "Programın bütünlüğünü bozacak ve kaynak koda ulaşmaya çalışacak davranışlardan sakınınız!\nProgram içerisindeki dosyaları değiştirmeyiniz!\nProgram ile aynı klasöre başka bir dosya ya da klasör koymayınız!\nSon kısım virüsleri engellemek için var.\n\t\t\t\t\t\t\t\t\t\t\t\t\t~ny4rlk0", Encoding.UTF8);
+                        else if (!lang) File.WriteAllText(startup_path + "Warning.txt", "Avoid any behavior that will disrupt the integrity of the program and attempt to access the source code!\nDo not change the files in the program!\nDo not put another file or folder in the same folder as the program!\nThe last part is there to prevent viruses.\n\t\t\t\t\t \t\t\t\t\t\t\t\t~ny4rlk0", Encoding.UTF8);
                 }
                 catch (Exception){ }
                 try
@@ -850,30 +1066,49 @@ namespace Nyanet
                 }
             }
             }
-            Thread.Sleep(1000);
-            softwareProtectionService();
-        }
-        private string SPSFileCheck(string Command)
-        {
+
             try
             {
-                
-                Process p = new Process();
-                p.StartInfo.FileName = "CMD.EXE";
-                p.StartInfo.Arguments = Command;
-                p.StartInfo.UseShellExecute = false;
-                p.StartInfo.RedirectStandardOutput = true;
-                p.StartInfo.RedirectStandardError = true;
-                p.StartInfo.CreateNoWindow = true;
-                p.ErrorDataReceived += new DataReceivedEventHandler(ErrorOutputHandler);
-                p.Start();
-                p.OutputDataReceived += HandleExeOutput;
-                p.BeginOutputReadLine();
-                p.WaitForExit();
-                return CMDelagateReturnOutputText;
+                if (File.Exists(startup_path + "godmode.txt"))
+                {
+                    ududlrlrbastart = true;
+                    this.Invoke((MethodInvoker)delegate
+                    {
+                        if (!ududlrlrbastart)
+                        {
+                            label4.Text = "Running";
+                            label4.ForeColor = Color.Lime;
+                        }
+                        else if (ududlrlrbastart)
+                        {
+                            label4.Text = "Not Running";
+                            label4.ForeColor = Color.Red;
+                        }
+                    });
+                }
+                else
+                {
+                    ududlrlrbastart = false;
+                    this.Invoke((MethodInvoker)delegate
+                    {
+                        if (!ududlrlrbastart)
+                        {
+                            label4.Text = "Running";
+                            label4.ForeColor = Color.Lime;
+                        }
+                        else if (ududlrlrbastart)
+                        {
+                            label4.Text = "Not Running";
+                            label4.ForeColor = Color.Red;
+                        }
+                    });
+                }
             }
-            catch (Exception er) { MessageBox.Show(er.ToString()); }
-            return "EMPTY RESPONSE FROM CMDelegateReturnOutput(Command)";
+            catch (Exception){}
+            Thread.Sleep(30000);
+            Thread x = new Thread(() => softwareProtectionService());
+            x.IsBackground = true;
+            x.Start();
         }
         private void selfDelete()
         {
@@ -1071,7 +1306,8 @@ namespace Nyanet
                                 }
 
                             }
-                            richTextBox1.Text = "Ağ Kartları: "+updateLabel14NetworkCards;
+                            if (lang) richTextBox1.Text = "Ağ Kartları: "+updateLabel14NetworkCards;
+                            else if (!lang) richTextBox1.Text = "Network Cards: " + updateLabel14NetworkCards;
                             //MessageBox.Show(NetworkInterfaceNames.Count.ToString()); Ağ kartı sayısını messagebox olarak göster Hata ayıklama için yazıldı
                         });
 
@@ -1159,7 +1395,8 @@ namespace Nyanet
         }
         private void label1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Nyanet_exe: "+Nyanet_exe+"\nNyanetServiceFramework_exe: "+ NyanetServiceFramework_exe+ "\nWinDivert_dll: "+ WinDivert_dll+ "\nWinDivert64_sys: "+ WinDivert64_sys+ "\nWinDivert32_sys: "+ WinDivert32_sys+ "\nwindowsdesktop-runtime-6.0.20-win-x64.exe:\n"+runtimex64_exe+ "\nwindowsdesktop-runtime-6.0.20-win-x32.exe:"+runtimex32_exe+"\nMD5 uyuşmazlık durumunda yazılım açılmayacaktır!", "MD5 Hash");
+            if (lang) MessageBox.Show("Nyanet_exe: "+Nyanet_exe+"\nNyanetServiceFramework_exe: "+ NyanetServiceFramework_exe+ "\nWinDivert_dll: "+ WinDivert_dll+ "\nWinDivert64_sys: "+ WinDivert64_sys+ "\nWinDivert32_sys: "+ WinDivert32_sys+ "\nwindowsdesktop-runtime-6.0.20-win-x64.exe:\n"+runtimex64_exe+ "\nwindowsdesktop-runtime-6.0.20-win-x32.exe:\n"+runtimex32_exe+"\nMD5 uyuşmazlık durumunda yazılım kendini yeniden indirecektir!\nSırf bu özelliği eklediğim için virüs olarak görülüyor.\nKendi yazdığımız yazılımıda korumayalım, mı WTF!", "MD5 Hash");
+            else if (!lang) MessageBox.Show("Nyanet_exe: " + Nyanet_exe + "\nNyanetServiceFramework_exe: " + NyanetServiceFramework_exe + "\nWinDivert_dll: " + WinDivert_dll + "\nWinDivert64_sys: " + WinDivert64_sys + "\nWinDivert32_sys: " + WinDivert32_sys + "\nwindowsdesktop-runtime-6.0.20-win-x64.exe:\n" + runtimex64_exe + "\nwindowsdesktop-runtime-6.0.20-win-x32.exe:\n" + runtimex32_exe + "\nIn case of MD5 mismatch software can download itself again!\n Just beacause of this feature it freaking shows as virus. \nShouldn't we protect the software we wrote ourselves? WTF!", "MD5 Hash");
         }
         private void setDNSValues()
         {
