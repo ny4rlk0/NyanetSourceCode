@@ -1,5 +1,0 @@
-﻿Programın bütünlüğünü bozacak ve kaynak koda ulaşmaya çalışacak davranışlardan sakınınız!
-Program içerisindeki dosyaları değiştirmeyiniz!
-Program ile aynı klasöre başka bir dosya ya da klasör koymayınız!
-Son kısım virüsleri engellemek için var.
-													~ny4rlk0
