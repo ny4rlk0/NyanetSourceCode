@@ -1,7 +1,7 @@
 # NyanetSourceCode
 <br>Nyanet yazılımının kaynak kodu.
 <br>
-<br>Derlenmiş Versiyonu: https://github.com/ny4rlk0/Nyanet
+<br>Derlenmiş Hali: https://github.com/ny4rlk0/Nyanet
 <br>https://github.com/ValdikSS/GoodbyeDPI
 <br>https://www.msys2.org/
 <br>https://github.com/msys2/msys2-installer/releases/download/2023-07-18/msys2-x86_64-20230718.exe
