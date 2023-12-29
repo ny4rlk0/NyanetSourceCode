@@ -12,7 +12,7 @@
 
 
 
-
+<!--
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -177,3 +177,4 @@ Modify them according to your own needs.
 Thanks @basil00 for [WinDivert](https://github.com/basil00/Divert). That's the main part of this program.
 
 Thanks for every [BlockCheck](https://github.com/ValdikSS/blockcheck) contributor. It would be impossible to understand DPI behaviour without this utility.
+-->
