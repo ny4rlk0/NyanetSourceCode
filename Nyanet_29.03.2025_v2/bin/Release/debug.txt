@@ -1,0 +1,1140 @@
+29.03.2025 01:44:01
+NyanetServiceFramework NyanetServiceFramework stop
+29.03.2025 01:44:01
+blacklist.txt file found!
+Using DPI Unblock on only blacklist.txt file domains!
+29.03.2025 01:44:01
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 01:44:01
+CMD /C taskkill /im "NyanetServiceFramework.exe" /f
+29.03.2025 01:44:01
+SUCCESS: The process "NyanetServiceFramework.exe" with PID 13556 has been terminated.
+
+29.03.2025 01:44:01
+
+29.03.2025 01:44:02
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6 start
+29.03.2025 01:44:02
+blacklist.txt file found!
+Using DPI Unblock on only blacklist.txt file domains!
+29.03.2025 01:44:02
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6 --blacklist blacklist.txt
+29.03.2025 01:46:34
+NyanetServiceFramework NyanetServiceFramework stop
+29.03.2025 01:46:34
+blacklist.txt file found!
+Using DPI Unblock on only blacklist.txt file domains!
+29.03.2025 01:46:42
+CMD /C taskkill /im "NyanetServiceFramework.exe" /f
+29.03.2025 01:46:42
+
+29.03.2025 01:46:42
+ERROR: The process "NyanetServiceFramework.exe" not found.
+
+29.03.2025 01:46:42
+CMD /C sc stop windivert
+29.03.2025 01:46:42
+
+SERVICE_NAME: windivert 
+        TYPE               : 1  KERNEL_DRIVER  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+29.03.2025 01:46:42
+
+29.03.2025 01:46:42
+CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+29.03.2025 01:46:42
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+
+29.03.2025 01:46:42
+
+29.03.2025 01:46:42
+Queriying network adapters...
+29.03.2025 01:46:42
+Ethernet
+Realtek PCIe GbE Family Controller
+{89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+
+29.03.2025 01:50:13
+CMD /C taskkill /im "NyanetServiceFramework.exe" /f
+29.03.2025 01:50:13
+
+29.03.2025 01:50:13
+ERROR: The process "NyanetServiceFramework.exe" not found.
+
+29.03.2025 01:50:13
+CMD /C sc stop windivert
+29.03.2025 01:50:13
+[SC] OpenService FAILED 1060:
+
+Belirtilen hizmet, ykl bir hizmet olarak yok.
+
+
+29.03.2025 01:50:13
+
+29.03.2025 01:50:13
+CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+29.03.2025 01:50:13
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+
+29.03.2025 01:50:13
+
+29.03.2025 01:50:13
+Queriying network adapters...
+29.03.2025 01:50:13
+Ethernet
+Realtek PCIe GbE Family Controller
+{89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+
+29.03.2025 01:50:55
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6 start
+29.03.2025 01:50:55
+blacklist.txt file found!
+Using DPI Unblock on only blacklist.txt file domains!
+29.03.2025 01:50:55
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6 --blacklist blacklist.txt
+29.03.2025 01:50:55
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 01:51:51
+NyanetServiceFramework NyanetServiceFramework stop
+29.03.2025 01:51:53
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6 start
+29.03.2025 01:51:55
+NyanetServiceFramework NyanetServiceFramework stop
+29.03.2025 01:51:55
+CMD /C taskkill /im "NyanetServiceFramework.exe" /f
+29.03.2025 01:51:55
+SUCCESS: The process "NyanetServiceFramework.exe" with PID 17900 has been terminated.
+
+29.03.2025 01:51:55
+
+29.03.2025 01:51:55
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 01:51:55
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 01:52:18
+CMD /C taskkill /im "NyanetServiceFramework.exe" /f
+29.03.2025 01:52:18
+
+29.03.2025 01:52:18
+ERROR: The process "NyanetServiceFramework.exe" not found.
+
+29.03.2025 01:52:18
+CMD /C sc stop windivert
+29.03.2025 01:52:18
+
+SERVICE_NAME: windivert 
+        TYPE               : 1  KERNEL_DRIVER  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+29.03.2025 01:52:18
+
+29.03.2025 01:52:18
+CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+29.03.2025 01:52:18
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+
+29.03.2025 01:52:18
+
+29.03.2025 01:52:18
+Queriying network adapters...
+29.03.2025 01:52:18
+Ethernet
+Realtek PCIe GbE Family Controller
+{89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+
+29.03.2025 01:52:19
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6 start
+29.03.2025 01:54:04
+NyanetServiceFramework NyanetServiceFramework stop
+29.03.2025 01:54:04
+CMD /C taskkill /im "NyanetServiceFramework.exe" /f
+29.03.2025 01:54:04
+SUCCESS: The process "NyanetServiceFramework.exe" with PID 6716 has been terminated.
+
+29.03.2025 01:54:04
+
+29.03.2025 01:54:04
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 01:54:04
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 01:54:06
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6 start
+29.03.2025 01:57:51
+NyanetServiceFramework NyanetServiceFramework stop
+29.03.2025 01:57:52
+CMD /C taskkill /im "NyanetServiceFramework.exe" /f
+29.03.2025 01:57:52
+SUCCESS: The process "NyanetServiceFramework.exe" with PID 10256 has been terminated.
+
+29.03.2025 01:57:52
+
+29.03.2025 01:57:52
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 01:57:52
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 01:58:03
+CMD /C taskkill /im "NyanetServiceFramework.exe" /f
+29.03.2025 01:58:03
+
+29.03.2025 01:58:03
+ERROR: The process "NyanetServiceFramework.exe" not found.
+
+29.03.2025 01:58:03
+CMD /C sc stop windivert
+29.03.2025 01:58:03
+
+SERVICE_NAME: windivert 
+        TYPE               : 1  KERNEL_DRIVER  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+29.03.2025 01:58:03
+
+29.03.2025 01:58:03
+CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+29.03.2025 01:58:03
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+
+29.03.2025 01:58:03
+
+29.03.2025 01:58:03
+Queriying network adapters...
+29.03.2025 01:58:03
+Ethernet
+Realtek PCIe GbE Family Controller
+{89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+
+29.03.2025 01:58:30
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 01:58:32
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 01:58:32
+CMD /C taskkill /im "NyanetServiceFramework.exe" /f
+29.03.2025 01:58:32
+SUCCESS: The process "NyanetServiceFramework.exe" with PID 4316 has been terminated.
+
+29.03.2025 01:58:32
+
+29.03.2025 01:58:32
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 01:58:32
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 02:06:18
+CMD /C taskkill /im "NyanetServiceFramework.exe" /f
+29.03.2025 02:06:18
+
+29.03.2025 02:06:18
+ERROR: The process "NyanetServiceFramework.exe" not found.
+
+29.03.2025 02:06:18
+CMD /C sc stop windivert
+29.03.2025 02:06:18
+
+SERVICE_NAME: windivert 
+        TYPE               : 1  KERNEL_DRIVER  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+29.03.2025 02:06:18
+
+29.03.2025 02:06:18
+CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+29.03.2025 02:06:18
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+
+29.03.2025 02:06:18
+
+29.03.2025 02:06:18
+Queriying network adapters...
+29.03.2025 02:06:18
+Ethernet
+Realtek PCIe GbE Family Controller
+{89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+
+29.03.2025 02:06:44
+CMD /C taskkill /im "NyanetServiceFramework.exe" /f
+29.03.2025 02:06:44
+
+29.03.2025 02:06:44
+ERROR: The process "NyanetServiceFramework.exe" not found.
+
+29.03.2025 02:06:44
+CMD /C sc stop windivert
+29.03.2025 02:06:44
+[SC] OpenService FAILED 1060:
+
+Belirtilen hizmet, ykl bir hizmet olarak yok.
+
+
+29.03.2025 02:06:44
+
+29.03.2025 02:06:44
+CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+29.03.2025 02:06:44
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+
+29.03.2025 02:06:44
+
+29.03.2025 02:06:44
+Queriying network adapters...
+29.03.2025 02:06:44
+Ethernet
+Realtek PCIe GbE Family Controller
+{89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+
+29.03.2025 02:07:05
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:07:14
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:07:14
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:07:14
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 02:07:37
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:08:08
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:08:08
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:08:08
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 02:08:17
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:11:37
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:11:37
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:11:37
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 02:11:42
+CMD /C taskkill /im "NyanetServiceFramework.exe" /f
+29.03.2025 02:11:42
+
+29.03.2025 02:11:42
+ERROR: The process "NyanetServiceFramework.exe" not found.
+
+29.03.2025 02:11:42
+CMD /C sc stop windivert
+29.03.2025 02:11:42
+
+SERVICE_NAME: windivert 
+        TYPE               : 1  KERNEL_DRIVER  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+29.03.2025 02:11:42
+
+29.03.2025 02:11:42
+CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+29.03.2025 02:11:42
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+
+29.03.2025 02:11:42
+
+29.03.2025 02:11:42
+Queriying network adapters...
+29.03.2025 02:11:42
+Ethernet
+Realtek PCIe GbE Family Controller
+{89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+
+29.03.2025 02:11:46
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:11:56
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:11:56
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:11:56
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 02:12:07
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:12:36
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:12:36
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:12:36
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 02:12:46
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:12:55
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:12:55
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:12:55
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 02:16:13
+CMD /C taskkill /im "NyanetServiceFramework.exe" /f
+29.03.2025 02:16:13
+
+29.03.2025 02:16:13
+ERROR: The process "NyanetServiceFramework.exe" not found.
+
+29.03.2025 02:16:13
+CMD /C sc stop windivert
+29.03.2025 02:16:13
+
+SERVICE_NAME: windivert 
+        TYPE               : 1  KERNEL_DRIVER  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+29.03.2025 02:16:13
+
+29.03.2025 02:16:13
+CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+29.03.2025 02:16:13
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+
+29.03.2025 02:16:13
+
+29.03.2025 02:16:14
+Queriying network adapters...
+29.03.2025 02:16:14
+Ethernet
+Realtek PCIe GbE Family Controller
+{89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+
+29.03.2025 02:16:15
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:16:24
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:16:24
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:16:24
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 02:16:31
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:16:35
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:16:35
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:16:35
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 02:16:38
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:16:40
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:16:40
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:16:40
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 02:21:03
+CMD /C taskkill /im "NyanetServiceFramework.exe" /f
+29.03.2025 02:21:03
+
+29.03.2025 02:21:03
+ERROR: The process "NyanetServiceFramework.exe" not found.
+
+29.03.2025 02:21:04
+CMD /C sc stop windivert
+29.03.2025 02:21:04
+
+SERVICE_NAME: windivert 
+        TYPE               : 1  KERNEL_DRIVER  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+29.03.2025 02:21:04
+
+29.03.2025 02:21:04
+CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+29.03.2025 02:21:04
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+
+29.03.2025 02:21:04
+
+29.03.2025 02:21:04
+Queriying network adapters...
+29.03.2025 02:21:04
+Ethernet
+Realtek PCIe GbE Family Controller
+{89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+
+29.03.2025 02:21:06
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:21:09
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:21:09
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:21:09
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 02:21:12
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:21:16
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:21:16
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:21:16
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 02:22:17
+CMD /C taskkill /im "NyanetServiceFramework.exe" /f
+29.03.2025 02:22:17
+
+29.03.2025 02:22:17
+ERROR: The process "NyanetServiceFramework.exe" not found.
+
+29.03.2025 02:22:17
+CMD /C sc stop windivert
+29.03.2025 02:22:17
+
+SERVICE_NAME: windivert 
+        TYPE               : 1  KERNEL_DRIVER  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+29.03.2025 02:22:17
+
+29.03.2025 02:22:17
+CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+29.03.2025 02:22:17
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+
+29.03.2025 02:22:17
+
+29.03.2025 02:22:17
+Queriying network adapters...
+29.03.2025 02:22:17
+Ethernet
+Realtek PCIe GbE Family Controller
+{89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+
+29.03.2025 02:22:26
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:22:33
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:22:33
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:22:33
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 02:22:36
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:22:38
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:22:38
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:22:38
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 02:22:39
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:22:41
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:22:41
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:22:41
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 02:22:43
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:22:45
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:22:45
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:22:45
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 02:22:47
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:22:54
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:22:54
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:22:54
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 02:22:57
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:22:58
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:22:58
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:22:58
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 02:22:58
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:22:58
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:22:58
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:22:58
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 02:22:58
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:22:58
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:22:58
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:22:58
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 02:22:58
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:23:01
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:23:01
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:23:01
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 02:23:33
+CMD /C taskkill /im "NyanetServiceFramework.exe" /f
+29.03.2025 02:23:33
+
+29.03.2025 02:23:33
+ERROR: The process "NyanetServiceFramework.exe" not found.
+
+29.03.2025 02:23:33
+CMD /C sc stop windivert
+29.03.2025 02:23:33
+
+SERVICE_NAME: windivert 
+        TYPE               : 1  KERNEL_DRIVER  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+29.03.2025 02:23:33
+
+29.03.2025 02:23:33
+CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+29.03.2025 02:23:33
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+
+29.03.2025 02:23:33
+
+29.03.2025 02:23:33
+Queriying network adapters...
+29.03.2025 02:23:33
+Ethernet
+Realtek PCIe GbE Family Controller
+{89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+
+29.03.2025 02:24:16
+CMD /C taskkill /im "NyanetServiceFramework.exe" /f
+29.03.2025 02:24:16
+
+29.03.2025 02:24:16
+ERROR: The process "NyanetServiceFramework.exe" not found.
+
+29.03.2025 02:24:17
+CMD /C sc stop windivert
+29.03.2025 02:24:17
+[SC] OpenService FAILED 1060:
+
+Belirtilen hizmet, ykl bir hizmet olarak yok.
+
+
+29.03.2025 02:24:17
+
+29.03.2025 02:24:17
+CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+29.03.2025 02:24:17
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+
+29.03.2025 02:24:17
+
+29.03.2025 02:24:17
+Queriying network adapters...
+29.03.2025 02:24:17
+Ethernet
+Realtek PCIe GbE Family Controller
+{89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+
+29.03.2025 02:24:24
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:24:26
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:24:26
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:24:26
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 02:27:42
+CMD /C taskkill /im "NyanetServiceFramework.exe" /f
+29.03.2025 02:27:42
+
+29.03.2025 02:27:42
+ERROR: The process "NyanetServiceFramework.exe" not found.
+
+29.03.2025 02:27:42
+CMD /C sc stop windivert
+29.03.2025 02:27:42
+
+SERVICE_NAME: windivert 
+        TYPE               : 1  KERNEL_DRIVER  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+29.03.2025 02:27:42
+
+29.03.2025 02:27:43
+CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+29.03.2025 02:27:43
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+
+29.03.2025 02:27:43
+
+29.03.2025 02:27:43
+Queriying network adapters...
+29.03.2025 02:27:43
+Ethernet
+Realtek PCIe GbE Family Controller
+{89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+
+29.03.2025 02:27:50
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:27:57
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:27:57
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:27:57
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 02:28:03
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:28:40
+CMD /C taskkill /im "NyanetServiceFramework.exe" /f
+29.03.2025 02:28:40
+SUCCESS: The process "NyanetServiceFramework.exe" with PID 19736 has been terminated.
+
+29.03.2025 02:28:40
+
+29.03.2025 02:28:40
+CMD /C sc stop windivert
+29.03.2025 02:28:40
+
+SERVICE_NAME: windivert 
+        TYPE               : 1  KERNEL_DRIVER  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+29.03.2025 02:28:40
+
+29.03.2025 02:28:40
+CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+29.03.2025 02:28:40
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+
+29.03.2025 02:28:40
+
+29.03.2025 02:28:40
+Queriying network adapters...
+29.03.2025 02:28:40
+Ethernet
+Realtek PCIe GbE Family Controller
+{89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+
+29.03.2025 02:28:47
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:28:54
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:28:54
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:28:54
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 02:29:04
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:29:11
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:29:11
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:29:11
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 02:29:23
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:29:26
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:29:27
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:29:27
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 02:37:57
+CMD /C taskkill /im "NyanetServiceFramework.exe" /f
+29.03.2025 02:37:57
+
+29.03.2025 02:37:57
+ERROR: The process "NyanetServiceFramework.exe" not found.
+
+29.03.2025 02:37:57
+CMD /C sc stop windivert
+29.03.2025 02:37:57
+
+SERVICE_NAME: windivert 
+        TYPE               : 1  KERNEL_DRIVER  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+29.03.2025 02:37:57
+
+29.03.2025 02:37:58
+CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+29.03.2025 02:37:58
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+
+29.03.2025 02:37:58
+
+29.03.2025 02:37:58
+Queriying network adapters...
+29.03.2025 02:37:58
+Ethernet
+Realtek PCIe GbE Family Controller
+{89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+
+29.03.2025 02:38:00
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:38:02
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:38:02
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:38:02
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 02:38:41
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:38:43
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:38:43
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:38:43
+A problem with blacklist.txt detected and file has been deleted!
+29.03.2025 02:39:20
+CMD /C taskkill /im "NyanetServiceFramework.exe" /f
+29.03.2025 02:39:20
+
+29.03.2025 02:39:20
+ERROR: The process "NyanetServiceFramework.exe" not found.
+
+29.03.2025 02:39:21
+CMD /C sc stop windivert
+29.03.2025 02:39:21
+
+SERVICE_NAME: windivert 
+        TYPE               : 1  KERNEL_DRIVER  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+29.03.2025 02:39:21
+
+29.03.2025 02:39:21
+CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+29.03.2025 02:39:21
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+
+29.03.2025 02:39:21
+
+29.03.2025 02:39:21
+Queriying network adapters...
+29.03.2025 02:39:21
+Ethernet
+Realtek PCIe GbE Family Controller
+{89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+
+29.03.2025 02:44:44
+CMD /C taskkill /im "NyanetServiceFramework.exe" /f
+29.03.2025 02:44:44
+
+29.03.2025 02:44:44
+ERROR: The process "NyanetServiceFramework.exe" not found.
+
+29.03.2025 02:44:44
+CMD /C sc stop windivert
+29.03.2025 02:44:44
+[SC] OpenService FAILED 1060:
+
+Belirtilen hizmet, ykl bir hizmet olarak yok.
+
+
+29.03.2025 02:44:44
+
+29.03.2025 02:44:45
+CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+29.03.2025 02:44:45
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+
+29.03.2025 02:44:45
+
+29.03.2025 02:44:45
+Queriying network adapters...
+29.03.2025 02:44:45
+Ethernet
+Realtek PCIe GbE Family Controller
+{89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+
+29.03.2025 02:44:46
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:44:47
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:44:47
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:45:11
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 02:45:13
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 02:45:13
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
+29.03.2025 04:14:36
+CMD /C taskkill /im "NyanetServiceFramework.exe" /f
+29.03.2025 04:14:36
+
+29.03.2025 04:14:36
+ERROR: The process "NyanetServiceFramework.exe" not found.
+
+29.03.2025 04:14:36
+CMD /C sc stop windivert
+29.03.2025 04:14:36
+[SC] OpenService FAILED 5:
+
+EriŸim engellendi.
+
+
+29.03.2025 04:14:36
+
+29.03.2025 04:14:36
+CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+29.03.2025 04:14:36
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+
+29.03.2025 04:14:36
+
+29.03.2025 04:14:36
+Queriying network adapters...
+29.03.2025 04:14:36
+Ethernet
+Realtek PCIe GbE Family Controller
+{89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+
+29.03.2025 04:14:38
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 04:14:46
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 04:16:48
+CMD /C taskkill /im "NyanetServiceFramework.exe" /f
+29.03.2025 04:16:48
+
+29.03.2025 04:16:48
+ERROR: The process "NyanetServiceFramework.exe" not found.
+
+29.03.2025 04:16:48
+CMD /C sc stop windivert
+29.03.2025 04:16:48
+
+SERVICE_NAME: windivert 
+        TYPE               : 1  KERNEL_DRIVER  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+29.03.2025 04:16:48
+
+29.03.2025 04:16:48
+CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+29.03.2025 04:16:48
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+
+29.03.2025 04:16:48
+
+29.03.2025 04:16:48
+Queriying network adapters...
+29.03.2025 04:16:48
+Ethernet
+Realtek PCIe GbE Family Controller
+{89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+
+29.03.2025 04:16:50
+start:
+NyanetServiceFramework -p -q -r -s -m -a --set-ttl 6
+29.03.2025 04:16:52
+stop:
+NyanetServiceFramework NyanetServiceFramework
+29.03.2025 04:16:52
+NyanetServiceFramework.exe Error:
+
+NyanetServiceFramework.exe -p -q -r -s -m -a --set-ttl 6
