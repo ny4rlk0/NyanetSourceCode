@@ -1,0 +1,66 @@
+30.03.2025 12:57:17
+Started at logon ENABLED!
+30.03.2025 12:57:17
+CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+30.03.2025 12:57:17
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+
+30.03.2025 12:57:17
+Queriying network adapters...
+30.03.2025 12:57:17
+Ethernet
+Realtek PCIe GbE Family Controller
+{89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+
+30.03.2025 12:57:17
+start: NyanetServiceFramework.exe --set-ttl 3 -p -q -r -s -m -a
+30.03.2025 12:58:04
+Started at logon DISABLED!
+30.03.2025 12:58:08
+stop: NyanetServiceFramework.exe!
+30.03.2025 13:00:09
+CMD /C sc stop windivert >nul 2>&1
+30.03.2025 13:00:09
+CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+30.03.2025 13:00:09
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+
+30.03.2025 13:00:09
+Queriying network adapters...
+30.03.2025 13:00:09
+Ethernet
+Realtek PCIe GbE Family Controller
+{89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+
+30.03.2025 13:15:50
+CMD /C sc stop windivert >nul 2>&1
+30.03.2025 13:15:50
+CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+30.03.2025 13:15:50
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+
+30.03.2025 13:15:50
+Queriying network adapters...
+30.03.2025 13:15:50
+Ethernet
+Realtek PCIe GbE Family Controller
+{89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+
+30.03.2025 13:16:46
+CMD /C sc stop windivert >nul 2>&1
+30.03.2025 13:16:46
+CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+30.03.2025 13:16:46
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+
+30.03.2025 13:16:46
+Queriying network adapters...
+30.03.2025 13:16:46
+Ethernet
+Realtek PCIe GbE Family Controller
+{89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+
