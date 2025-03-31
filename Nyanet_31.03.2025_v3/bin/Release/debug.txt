@@ -1,0 +1,139 @@
+
+31.03.2025 16:22:13: Program has been started...
+31.03.2025 16:22:13: Nyanet Logger has been started!
+31.03.2025 16:22:13: Checking Admin Access from OS!
+31.03.2025 16:22:13: Shutting down Nyanet Logger...
+
+31.03.2025 16:22:13: Program has been started...
+31.03.2025 16:22:13: Nyanet Logger has been started!
+31.03.2025 16:22:13: Checking Admin Access from OS!
+31.03.2025 16:22:13: Admin access has been Acquired!
+31.03.2025 16:22:13: Beginning to Initializing Components...
+31.03.2025 16:22:14: Form1 has been loaded!
+31.03.2025 16:22:14: runOnce() method has been loaded.
+31.03.2025 16:22:14: DNS Redirect enabled.
+31.03.2025 16:22:14: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port:none
+31.03.2025 16:22:14: AfterLoading() method has been loaded.
+31.03.2025 16:22:14: DNS 1: 2001:4860:4860::8888
+31.03.2025 16:22:14: DNS 2: 2001:4860:4860::8844
+31.03.2025 16:22:14: DNS 3: 8.8.8.8
+31.03.2025 16:22:14: DNS 4: 8.8.4.4
+31.03.2025 16:22:14: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+31.03.2025 16:22:14: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+31.03.2025 16:22:14: Querying network adapters...
+31.03.2025 16:22:14: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+31.03.2025 16:22:18: Start button clicked.
+31.03.2025 16:22:18: start: NyanetServiceFramework.exe --set-ttl 3 -p -q -r -s -m -a --dns-addr 9.9.9.9 --dns-port 9953
+31.03.2025 16:22:18: Detected redirDNS file.
+31.03.2025 16:22:18: Using DNS Redirect dnsv4:9.9.9.9 dnsv4_Port:9953 dnsv6:none dnsv6_Port:none
+31.03.2025 16:22:21: Stop button clicked.
+31.03.2025 16:22:21: stop: NyanetServiceFramework.exe!
+31.03.2025 16:22:38: Shutting down Nyanet Logger...
+
+31.03.2025 16:30:04: Program has been started!
+31.03.2025 16:30:04: Nyanet Logger has been started!
+31.03.2025 16:30:04: Checking Admin Access from OS!
+31.03.2025 16:30:04: Shutting down Nyanet Logger...
+
+31.03.2025 16:30:04: Program has been started!
+31.03.2025 16:30:04: Nyanet Logger has been started!
+31.03.2025 16:30:04: Checking Admin Access from OS!
+31.03.2025 16:30:04: Admin access has been Acquired!
+31.03.2025 16:30:04: Beginning to Initializing Components!
+31.03.2025 16:30:05: Form1 has been loaded!
+31.03.2025 16:30:05: runOnce() method has been loaded!
+31.03.2025 16:30:05: DNS Redirect enabled.
+31.03.2025 16:30:05: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+31.03.2025 16:30:05: AfterLoading() method has been loaded.
+31.03.2025 16:30:05: DNS 1: 2001:4860:4860::8888
+31.03.2025 16:30:05: DNS 2: 2001:4860:4860::8844
+31.03.2025 16:30:05: DNS 3: 8.8.8.8
+31.03.2025 16:30:05: DNS 4: 8.8.4.4
+31.03.2025 16:30:05: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+31.03.2025 16:30:05: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+31.03.2025 16:30:05: Querying network adapters...
+31.03.2025 16:30:05: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+31.03.2025 16:30:16: Called setDNSValues() => Setting DNS Server variables...
+31.03.2025 16:30:16: Setting [D]NS [O]ver [H]TTPS servers.
+31.03.2025 16:30:16: DoH: DNSv4_1: 1.1.1.1 DNSv4_2: 1.0.0.1 DNSv6_1: 2606:4700:4700::1111 DNSv6_2: 2606:4700:4700::1001 HTTPS_TEMPLATE: https://cloudflare-dns.com/dns-query
+31.03.2025 16:30:16: COMMAND: CMD /C REG ADD "HKLM\SOFTWARE\Policies\Microsoft\Windows NT\DNSClient" /F
+31.03.2025 16:30:16: OUTPUT: OK.
+31.03.2025 16:30:17: COMMAND: CMD /C REG ADD "HKLM\SOFTWARE\Policies\Microsoft\Windows NT\DNSClient" /v DoHPolicy /t REG_DWORD /d 2 /F
+31.03.2025 16:30:17: OUTPUT: OK.
+31.03.2025 16:30:17: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters\DohWellKnownServers" /F
+31.03.2025 16:30:17: OUTPUT: OK.
+31.03.2025 16:30:17: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters\DohWellKnownServers\1.1.1.1" /F
+31.03.2025 16:30:17: OUTPUT: OK.
+31.03.2025 16:30:17: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters\DohWellKnownServers\1.1.1.1" /v Template /t REG_SZ /d https://cloudflare-dns.com/dns-query /F
+31.03.2025 16:30:17: OUTPUT: OK.
+31.03.2025 16:30:18: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters\DohWellKnownServers\1.0.0.1" /F
+31.03.2025 16:30:18: OUTPUT: OK.
+31.03.2025 16:30:18: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters\DohWellKnownServers\1.0.0.1" /v Template /t REG_SZ /d https://cloudflare-dns.com/dns-query /F
+31.03.2025 16:30:18: OUTPUT: OK.
+31.03.2025 16:30:18: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters\DohWellKnownServers\2606:4700:4700::1111" /F
+31.03.2025 16:30:18: OUTPUT: OK.
+31.03.2025 16:30:18: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters\DohWellKnownServers\2606:4700:4700::1111" /v Template /t REG_SZ /d https://cloudflare-dns.com/dns-query /F
+31.03.2025 16:30:18: OUTPUT: OK.
+31.03.2025 16:30:18: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters\DohWellKnownServers\2606:4700:4700::1001" /F
+31.03.2025 16:30:18: OUTPUT: OK.
+31.03.2025 16:30:19: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters\DohWellKnownServers\2606:4700:4700::1001" /v Template /t REG_SZ /d https://cloudflare-dns.com/dns-query /F
+31.03.2025 16:30:19: OUTPUT: OK.
+31.03.2025 16:30:29: COMMAND: CMD /C gpupdate /force
+31.03.2025 16:30:29: OUTPUT: Updating policy...
+
+Computer Policy update has completed successfully.
+User Policy update has completed successfully.
+31.03.2025 16:30:29: COMMAND: CMD /C netsh interface ipv4 set dns name="Ethernet" source=static address=none
+31.03.2025 16:30:29: OUTPUT: There are no Domain Name Servers (DNS) configured on this computer.
+31.03.2025 16:30:29: COMMAND: CMD /C netsh interface ipv6 set dns name="Ethernet" source=static address=none
+31.03.2025 16:30:29: OUTPUT: There are no Domain Name Servers (DNS) configured on this computer.
+31.03.2025 16:30:30: COMMAND: CMD /C netsh interface ipv6 add dnsservers "Ethernet" 2606:4700:4700::1111 index=1
+31.03.2025 16:30:30: OUTPUT: The configured DNS server is incorrect or does not exist.
+31.03.2025 16:30:30: COMMAND: CMD /C netsh interface ipv6 add dnsservers "Ethernet" 2606:4700:4700::1001 index=2
+31.03.2025 16:30:30: OUTPUT: The configured DNS server is incorrect or does not exist.
+31.03.2025 16:30:31: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}" /F
+31.03.2025 16:30:31: OUTPUT: OK.
+31.03.2025 16:30:31: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings" /F
+31.03.2025 16:30:31: OUTPUT: OK.
+31.03.2025 16:30:31: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings\Doh" /F
+31.03.2025 16:30:31: OUTPUT: OK.
+31.03.2025 16:30:31: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings\Doh6" /F
+31.03.2025 16:30:31: OUTPUT: OK.
+31.03.2025 16:30:31: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings\Doh\1.1.1.1" /F
+31.03.2025 16:30:31: OUTPUT: OK.
+31.03.2025 16:30:32: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings\Doh\1.0.0.1" /F
+31.03.2025 16:30:32: OUTPUT: OK.
+31.03.2025 16:30:32: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings\Doh6\2606:4700:4700::1111" /F
+31.03.2025 16:30:32: OUTPUT: OK.
+31.03.2025 16:30:32: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings\Doh6\2606:4700:4700::1111" /F
+31.03.2025 16:30:32: OUTPUT: OK.
+31.03.2025 16:30:32: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings\Doh\1.1.1.1" /v DohTemplate /t REG_SZ /d https://cloudflare-dns.com/dns-query /F
+31.03.2025 16:30:32: OUTPUT: OK.
+31.03.2025 16:30:32: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings\Doh\1.0.0.1" /v DohTemplate /t REG_SZ /d https://cloudflare-dns.com/dns-query /F
+31.03.2025 16:30:32: OUTPUT: OK.
+31.03.2025 16:30:33: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings\Doh6\2606:4700:4700::1111" /v DohTemplate /t REG_SZ /d https://cloudflare-dns.com/dns-query /F
+31.03.2025 16:30:33: OUTPUT: OK.
+31.03.2025 16:30:33: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings\Doh6\2606:4700:4700::1001" /v DohTemplate /t REG_SZ /d https://cloudflare-dns.com/dns-query /F
+31.03.2025 16:30:33: OUTPUT: OK.
+31.03.2025 16:30:33: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings\Doh\1.1.1.1" /v DohFlags /t REG_QWORD /d "0x1" /F
+31.03.2025 16:30:33: OUTPUT: OK.
+31.03.2025 16:30:33: DNS 1: 2606:4700:4700::1111
+31.03.2025 16:30:33: DNS 2: 2606:4700:4700::1001
+31.03.2025 16:30:33: DNS 3: 1.1.1.1
+31.03.2025 16:30:33: DNS 4: 1.0.0.1
+31.03.2025 16:30:33: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings\Doh\1.0.0.1" /v DohFlags /t REG_QWORD /d "0x1" /F
+31.03.2025 16:30:33: OUTPUT: OK.
+31.03.2025 16:30:34: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings\Doh6\2606:4700:4700::1111" /v DohFlags /t REG_QWORD /d "0x1" /F
+31.03.2025 16:30:34: OUTPUT: OK.
+31.03.2025 16:30:34: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings\Doh6\2606:4700:4700::1001" /v DohFlags /t REG_QWORD /d "0x1" /F
+31.03.2025 16:30:34: OUTPUT: OK.
+31.03.2025 16:31:06: Start button clicked.
+31.03.2025 16:31:06: start: NyanetServiceFramework.exe --set-ttl 3 -p -q -r -s -m -a --dns-addr 9.9.9.9 --dns-port 9953
+31.03.2025 16:31:06: Detected redirDNS file.
+31.03.2025 16:31:06: Using DNS Redirect dnsv4: 9.9.9.9 dnsv4_Port: 9953 dnsv6: none dnsv6_Port: none
+31.03.2025 16:31:17: Stop button clicked.
+31.03.2025 16:31:17: stop: NyanetServiceFramework.exe!
+31.03.2025 16:31:30: Downloading windowsdesktop-runtime-6.0.20-win-x64.exe!
+31.03.2025 16:32:08: Downloading windowsdesktop-runtime-6.0.20-win-x86.exe!
+31.03.2025 16:33:03: Installing necesary runtimes compleated!
+31.03.2025 16:33:59: Shutting down Nyanet Logger...
