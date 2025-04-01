@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>C:\Users\user\Desktop\NyanetUnprotected\|C:\Users\asus\Desktop\NyanetUnprotected\|C:\Users\asus\Desktop\NyanetUnprotected\Release2\|C:\Users\asus\Desktop\NyanetUnprotected\Release\|C:\Users\asus\Desktop\Nyanet\</PublishUrlHistory>
+    <InstallUrlHistory />
+    <SupportUrlHistory>https://github.com/ny4rlk0</SupportUrlHistory>
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory>https://github.com/ny4rlk0</ErrorReportUrlHistory>
+    <FallbackCulture>tr-TR</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>
