@@ -1,0 +1,30 @@
+
+03.04.2025 08:59:13: Program has been started!
+03.04.2025 08:59:13: Nyanet Logger has been started!
+03.04.2025 08:59:13: Checking Admin Access from OS!
+03.04.2025 08:59:13: Shutting down Nyanet Logger...
+
+03.04.2025 08:59:13: Program has been started!
+03.04.2025 08:59:13: Nyanet Logger has been started!
+03.04.2025 08:59:13: Checking Admin Access from OS!
+03.04.2025 08:59:13: Admin access has been Acquired!
+03.04.2025 08:59:13: Beginning to Initializing Components!
+03.04.2025 08:59:13: Form1 has been loaded!
+03.04.2025 08:59:13: runOnce() method has been loaded!
+03.04.2025 08:59:14: DNS Redirect enabled.
+03.04.2025 08:59:14: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+03.04.2025 08:59:14: AfterLoading() method has been loaded.
+03.04.2025 08:59:14: DNS 1: 2001:4860:4860::8888
+03.04.2025 08:59:14: DNS 2: 2001:4860:4860::8844
+03.04.2025 08:59:14: DNS 3: 8.8.8.8
+03.04.2025 08:59:14: DNS 4: 8.8.4.4
+03.04.2025 08:59:16: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+03.04.2025 08:59:16: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1403.04.2025 08:59:16: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+03.04.2025 08:59:16: Querying network adapters...
+03.04.2025 08:59:16: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+03.04.2025 08:59:16: DNS Redirect disabled.
+03.04.2025 08:59:16: DNS Redirect enabled.
+03.04.2025 08:59:16: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+03.04.2025 09:01:14: Shutting down Nyanet Logger...
+03.04.2025 09:01:14: Shutting down Nyanet Logger...
+03.04.2025 09:01:14: Shutting down Nyanet Logger...
