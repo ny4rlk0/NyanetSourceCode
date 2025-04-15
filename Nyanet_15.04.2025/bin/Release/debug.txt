@@ -1,0 +1,1326 @@
+
+03.04.2025 08:59:13: Program has been started!
+03.04.2025 08:59:13: Nyanet Logger has been started!
+03.04.2025 08:59:13: Checking Admin Access from OS!
+03.04.2025 08:59:13: Shutting down Nyanet Logger...
+
+03.04.2025 08:59:13: Program has been started!
+03.04.2025 08:59:13: Nyanet Logger has been started!
+03.04.2025 08:59:13: Checking Admin Access from OS!
+03.04.2025 08:59:13: Admin access has been Acquired!
+03.04.2025 08:59:13: Beginning to Initializing Components!
+03.04.2025 08:59:13: Form1 has been loaded!
+03.04.2025 08:59:13: runOnce() method has been loaded!
+03.04.2025 08:59:14: DNS Redirect enabled.
+03.04.2025 08:59:14: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+03.04.2025 08:59:14: AfterLoading() method has been loaded.
+03.04.2025 08:59:14: DNS 1: 2001:4860:4860::8888
+03.04.2025 08:59:14: DNS 2: 2001:4860:4860::8844
+03.04.2025 08:59:14: DNS 3: 8.8.8.8
+03.04.2025 08:59:14: DNS 4: 8.8.4.4
+03.04.2025 08:59:16: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+03.04.2025 08:59:16: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1403.04.2025 08:59:16: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+03.04.2025 08:59:16: Querying network adapters...
+03.04.2025 08:59:16: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+03.04.2025 08:59:16: DNS Redirect disabled.
+03.04.2025 08:59:16: DNS Redirect enabled.
+03.04.2025 08:59:16: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+03.04.2025 09:01:14: Shutting down Nyanet Logger...
+03.04.2025 09:01:14: Shutting down Nyanet Logger...
+03.04.2025 09:01:14: Shutting down Nyanet Logger...
+
+03.04.2025 10:12:13: Program has been started!
+03.04.2025 10:12:13: Nyanet Logger has been started!
+03.04.2025 10:12:13: Checking Admin Access from OS!
+03.04.2025 10:12:13: Shutting down Nyanet Logger...
+
+03.04.2025 10:12:13: Program has been started!
+03.04.2025 10:12:13: Nyanet Logger has been started!
+03.04.2025 10:12:13: Checking Admin Access from OS!
+03.04.2025 10:12:13: Admin access has been Acquired!
+03.04.2025 10:12:13: Beginning to Initializing Components!
+03.04.2025 10:12:13: Form1 has been loaded!
+03.04.2025 10:12:13: runOnce() method has been loaded!
+03.04.2025 10:12:13: DNS Redirect enabled.
+03.04.2025 10:12:13: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+03.04.2025 10:12:13: AfterLoading() method has been loaded.
+03.04.2025 10:12:14: DNS 1: 2001:4860:4860::8888
+03.04.2025 10:12:14: DNS 2: 2001:4860:4860::8844
+03.04.2025 10:12:14: DNS 3: 8.8.8.8
+03.04.2025 10:12:14: DNS 4: 8.8.4.4
+03.04.2025 10:12:15: Form1 has been minimized to notification bar!
+03.04.2025 10:12:16: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+03.04.2025 10:12:16: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1403.04.2025 10:12:16: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+03.04.2025 10:12:16: Querying network adapters!
+03.04.2025 10:12:16: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+03.04.2025 10:12:16: Displaying Form1!
+
+03.04.2025 10:13:20: Program has been started!
+03.04.2025 10:13:20: Nyanet Logger has been started!
+03.04.2025 10:13:20: Checking Admin Access from OS!
+03.04.2025 10:13:21: Shutting down Nyanet Logger...
+
+03.04.2025 10:13:21: Program has been started!
+03.04.2025 10:13:21: Nyanet Logger has been started!
+03.04.2025 10:13:21: Checking Admin Access from OS!
+03.04.2025 10:13:21: Admin access has been Acquired!
+03.04.2025 10:13:21: Beginning to Initializing Components!
+03.04.2025 10:13:21: Form1 has been loaded!
+03.04.2025 10:13:21: runOnce() method has been loaded!
+03.04.2025 10:13:21: DNS Redirect enabled.
+03.04.2025 10:13:21: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+03.04.2025 10:13:21: AfterLoading() method has been loaded.
+03.04.2025 10:13:21: DNS 1: 2001:4860:4860::8888
+03.04.2025 10:13:21: DNS 2: 2001:4860:4860::8844
+03.04.2025 10:13:21: DNS 3: 8.8.8.8
+03.04.2025 10:13:21: DNS 4: 8.8.4.4
+03.04.2025 10:13:23: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+03.04.2025 10:13:23: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1403.04.2025 10:13:23: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+03.04.2025 10:13:23: Querying network adapters!
+03.04.2025 10:13:23: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+03.04.2025 10:13:24: Form1 has been minimized to notification bar!
+03.04.2025 10:13:26: Displaying Form1!
+03.04.2025 10:18:14: Shutting down Nyanet Logger...
+03.04.2025 10:18:14: Shutting down Nyanet Logger...
+03.04.2025 10:18:14: Shutting down Nyanet Logger...
+
+03.04.2025 10:18:17: Program has been started!
+03.04.2025 10:18:17: Nyanet Logger has been started!
+03.04.2025 10:18:17: Checking Admin Access from OS!
+03.04.2025 10:18:17: Shutting down Nyanet Logger...
+
+03.04.2025 10:18:17: Program has been started!
+03.04.2025 10:18:17: Nyanet Logger has been started!
+03.04.2025 10:18:17: Checking Admin Access from OS!
+03.04.2025 10:18:17: Admin access has been Acquired!
+03.04.2025 10:18:17: Beginning to Initializing Components!
+03.04.2025 10:18:18: Form1 has been loaded!
+03.04.2025 10:18:18: runOnce() method has been loaded!
+03.04.2025 10:18:18: DNS Redirect enabled.
+03.04.2025 10:18:18: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+03.04.2025 10:18:18: AfterLoading() method has been loaded.
+03.04.2025 10:18:18: DNS 1: 2001:4860:4860::8888
+03.04.2025 10:18:18: DNS 2: 2001:4860:4860::8844
+03.04.2025 10:18:18: DNS 3: 8.8.8.8
+03.04.2025 10:18:18: DNS 4: 8.8.4.4
+03.04.2025 10:18:20: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+03.04.2025 10:18:20: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1403.04.2025 10:18:20: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+03.04.2025 10:18:20: Querying network adapters!
+03.04.2025 10:18:20: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+03.04.2025 10:18:20: Form1 has been minimized to notification bar!
+03.04.2025 10:18:21: Displaying Form1!
+03.04.2025 10:18:30: Shutting down Nyanet Logger...
+03.04.2025 10:18:30: Shutting down Nyanet Logger...
+03.04.2025 10:18:30: Shutting down Nyanet Logger...
+
+03.04.2025 10:18:34: Program has been started!
+03.04.2025 10:18:34: Nyanet Logger has been started!
+03.04.2025 10:18:34: Checking Admin Access from OS!
+03.04.2025 10:18:35: Shutting down Nyanet Logger...
+
+03.04.2025 10:18:35: Program has been started!
+03.04.2025 10:18:35: Nyanet Logger has been started!
+03.04.2025 10:18:35: Checking Admin Access from OS!
+03.04.2025 10:18:35: Admin access has been Acquired!
+03.04.2025 10:18:35: Beginning to Initializing Components!
+03.04.2025 10:18:35: Form1 has been loaded!
+03.04.2025 10:18:35: runOnce() method has been loaded!
+03.04.2025 10:18:35: DNS Redirect enabled.
+03.04.2025 10:18:35: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+03.04.2025 10:18:35: AfterLoading() method has been loaded.
+03.04.2025 10:18:35: DNS 1: 2001:4860:4860::8888
+03.04.2025 10:18:35: DNS 2: 2001:4860:4860::8844
+03.04.2025 10:18:35: DNS 3: 8.8.8.8
+03.04.2025 10:18:35: DNS 4: 8.8.4.4
+03.04.2025 10:18:37: Form1 has been minimized to notification bar!
+03.04.2025 10:18:37: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+03.04.2025 10:18:37: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1403.04.2025 10:18:37: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+03.04.2025 10:18:37: Querying network adapters!
+03.04.2025 10:18:37: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+03.04.2025 10:18:39: Displaying Form1!
+03.04.2025 10:19:03: Shutting down Nyanet Logger...
+03.04.2025 10:19:03: Shutting down Nyanet Logger...
+03.04.2025 10:19:03: Shutting down Nyanet Logger...
+
+03.04.2025 10:23:48: Program has been started!
+03.04.2025 10:23:48: Nyanet Logger has been started!
+03.04.2025 10:23:48: Checking Admin Access from OS!
+03.04.2025 10:23:49: Shutting down Nyanet Logger...
+
+03.04.2025 10:23:49: Program has been started!
+03.04.2025 10:23:49: Nyanet Logger has been started!
+03.04.2025 10:23:49: Checking Admin Access from OS!
+03.04.2025 10:23:49: Admin access has been Acquired!
+03.04.2025 10:23:49: Beginning to Initializing Components!
+03.04.2025 10:23:49: Form1 has been loaded!
+03.04.2025 10:23:49: runOnce() method has been loaded!
+03.04.2025 10:23:49: DNS Redirect enabled.
+03.04.2025 10:23:49: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+03.04.2025 10:23:49: AfterLoading() method has been loaded.
+03.04.2025 10:23:49: DNS 1: 2001:4860:4860::8888
+03.04.2025 10:23:49: DNS 2: 2001:4860:4860::8844
+03.04.2025 10:23:49: DNS 3: 8.8.8.8
+03.04.2025 10:23:49: DNS 4: 8.8.4.4
+03.04.2025 10:23:51: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+03.04.2025 10:23:51: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1403.04.2025 10:23:51: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+03.04.2025 10:23:51: Querying network adapters!
+03.04.2025 10:23:51: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+03.04.2025 10:23:53: Form1 has been minimized to notification bar!
+03.04.2025 10:23:57: Displaying Form1!
+
+03.04.2025 10:26:45: Program has been started!
+03.04.2025 10:26:45: Nyanet Logger has been started!
+03.04.2025 10:26:45: Checking Admin Access from OS!
+03.04.2025 10:26:46: Shutting down Nyanet Logger...
+
+03.04.2025 10:26:46: Program has been started!
+03.04.2025 10:26:46: Nyanet Logger has been started!
+03.04.2025 10:26:46: Checking Admin Access from OS!
+03.04.2025 10:26:46: Admin access has been Acquired!
+03.04.2025 10:26:46: Beginning to Initializing Components!
+03.04.2025 10:26:46: Form1 has been loaded!
+03.04.2025 10:26:46: runOnce() method has been loaded!
+03.04.2025 10:26:46: DNS Redirect enabled.
+03.04.2025 10:26:46: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+03.04.2025 10:26:46: AfterLoading() method has been loaded.
+03.04.2025 10:26:46: DNS 1: 2001:4860:4860::8888
+03.04.2025 10:26:46: DNS 2: 2001:4860:4860::8844
+03.04.2025 10:26:46: DNS 3: 8.8.8.8
+03.04.2025 10:26:46: DNS 4: 8.8.4.4
+03.04.2025 10:26:48: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+03.04.2025 10:26:48: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1403.04.2025 10:26:48: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+03.04.2025 10:26:48: Querying network adapters!
+03.04.2025 10:26:48: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+03.04.2025 10:26:52: Form1 has been minimized to notification bar!
+03.04.2025 10:26:53: Displaying Form1!
+
+03.04.2025 10:28:26: Program has been started!
+03.04.2025 10:28:26: Nyanet Logger has been started!
+03.04.2025 10:28:26: Checking Admin Access from OS!
+03.04.2025 10:28:26: Shutting down Nyanet Logger...
+
+03.04.2025 10:28:26: Program has been started!
+03.04.2025 10:28:26: Nyanet Logger has been started!
+03.04.2025 10:28:26: Checking Admin Access from OS!
+03.04.2025 10:28:26: Admin access has been Acquired!
+03.04.2025 10:28:26: Beginning to Initializing Components!
+03.04.2025 10:28:27: Form1 has been loaded!
+03.04.2025 10:28:27: runOnce() method has been loaded!
+03.04.2025 10:28:27: DNS Redirect enabled.
+03.04.2025 10:28:27: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+03.04.2025 10:28:27: AfterLoading() method has been loaded.
+03.04.2025 10:28:27: DNS 1: 2001:4860:4860::8888
+03.04.2025 10:28:27: DNS 2: 2001:4860:4860::8844
+03.04.2025 10:28:27: DNS 3: 8.8.8.8
+03.04.2025 10:28:27: DNS 4: 8.8.4.4
+03.04.2025 10:28:29: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+03.04.2025 10:28:29: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1403.04.2025 10:28:29: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+03.04.2025 10:28:29: Querying network adapters!
+03.04.2025 10:28:29: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+03.04.2025 10:28:57: Form1 has been minimized to notification bar!
+03.04.2025 10:28:59: Displaying Form1!
+
+03.04.2025 10:34:57: Program has been started!
+03.04.2025 10:34:57: Nyanet Logger has been started!
+03.04.2025 10:34:57: Checking Admin Access from OS!
+03.04.2025 10:34:58: Shutting down Nyanet Logger...
+
+03.04.2025 10:34:58: Program has been started!
+03.04.2025 10:34:58: Nyanet Logger has been started!
+03.04.2025 10:34:58: Checking Admin Access from OS!
+03.04.2025 10:34:58: Admin access has been Acquired!
+03.04.2025 10:34:58: Beginning to Initializing Components!
+03.04.2025 10:34:58: Form1 has been loaded!
+03.04.2025 10:34:58: runOnce() method has been loaded!
+03.04.2025 10:34:58: DNS Redirect enabled.
+03.04.2025 10:34:58: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+03.04.2025 10:34:58: AfterLoading() method has been loaded.
+03.04.2025 10:34:58: DNS 1: 2001:4860:4860::8888
+03.04.2025 10:34:58: DNS 2: 2001:4860:4860::8844
+03.04.2025 10:34:58: DNS 3: 8.8.8.8
+03.04.2025 10:34:58: DNS 4: 8.8.4.4
+03.04.2025 10:35:00: Form1 has been minimized to notification bar!
+03.04.2025 10:35:00: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+03.04.2025 10:35:00: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1403.04.2025 10:35:00: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+03.04.2025 10:35:00: Querying network adapters!
+03.04.2025 10:35:00: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+03.04.2025 10:35:02: Displaying Form1!
+
+03.04.2025 10:35:52: Program has been started!
+03.04.2025 10:35:52: Nyanet Logger has been started!
+03.04.2025 10:35:52: Checking Admin Access from OS!
+03.04.2025 10:35:53: Shutting down Nyanet Logger...
+
+03.04.2025 10:35:53: Program has been started!
+03.04.2025 10:35:53: Nyanet Logger has been started!
+03.04.2025 10:35:53: Checking Admin Access from OS!
+03.04.2025 10:35:53: Admin access has been Acquired!
+03.04.2025 10:35:53: Beginning to Initializing Components!
+03.04.2025 10:35:53: Form1 has been loaded!
+03.04.2025 10:35:53: runOnce() method has been loaded!
+03.04.2025 10:35:53: DNS Redirect enabled.
+03.04.2025 10:35:53: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+03.04.2025 10:35:53: AfterLoading() method has been loaded.
+03.04.2025 10:35:53: DNS 1: 2001:4860:4860::8888
+03.04.2025 10:35:53: DNS 2: 2001:4860:4860::8844
+03.04.2025 10:35:53: DNS 3: 8.8.8.8
+03.04.2025 10:35:53: DNS 4: 8.8.4.4
+03.04.2025 10:35:55: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+03.04.2025 10:35:55: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1403.04.2025 10:35:55: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+03.04.2025 10:35:55: Querying network adapters!
+03.04.2025 10:35:55: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+03.04.2025 10:35:57: Displaying Form1!
+03.04.2025 10:39:55: Shutting down Nyanet Logger...
+03.04.2025 10:39:55: Shutting down Nyanet Logger...
+03.04.2025 10:39:55: Shutting down Nyanet Logger...
+
+03.04.2025 10:39:58: Program has been started!
+03.04.2025 10:39:58: Nyanet Logger has been started!
+03.04.2025 10:39:58: Checking Admin Access from OS!
+03.04.2025 10:39:59: Shutting down Nyanet Logger...
+
+03.04.2025 10:39:59: Program has been started!
+03.04.2025 10:39:59: Nyanet Logger has been started!
+03.04.2025 10:39:59: Checking Admin Access from OS!
+03.04.2025 10:39:59: Admin access has been Acquired!
+03.04.2025 10:39:59: Beginning to Initializing Components!
+03.04.2025 10:39:59: Form1 has been loaded!
+03.04.2025 10:39:59: runOnce() method has been loaded!
+03.04.2025 10:39:59: DNS Redirect enabled.
+03.04.2025 10:39:59: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+03.04.2025 10:39:59: AfterLoading() method has been loaded.
+03.04.2025 10:39:59: DNS 1: 2001:4860:4860::8888
+03.04.2025 10:39:59: DNS 2: 2001:4860:4860::8844
+03.04.2025 10:39:59: DNS 3: 8.8.8.8
+03.04.2025 10:39:59: DNS 4: 8.8.4.4
+03.04.2025 10:40:01: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+03.04.2025 10:40:01: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1403.04.2025 10:40:01: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+03.04.2025 10:40:01: Querying network adapters!
+03.04.2025 10:40:01: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+03.04.2025 10:40:02: Form1 has been minimized to notification bar!
+03.04.2025 10:40:03: Displaying Form1!
+03.04.2025 10:40:18: Shutting down Nyanet Logger...
+
+03.04.2025 10:44:28: Program has been started!
+03.04.2025 10:44:28: Nyanet Logger has been started!
+03.04.2025 10:44:28: Checking Admin Access from OS!
+03.04.2025 10:44:29: Shutting down Nyanet Logger...
+
+03.04.2025 10:44:29: Program has been started!
+03.04.2025 10:44:29: Nyanet Logger has been started!
+03.04.2025 10:44:29: Checking Admin Access from OS!
+03.04.2025 10:44:29: Admin access has been Acquired!
+03.04.2025 10:44:29: Beginning to Initializing Components!
+03.04.2025 10:44:29: Form1 has been loaded!
+03.04.2025 10:44:29: runOnce() method has been loaded!
+03.04.2025 10:44:29: DNS Redirect enabled.
+03.04.2025 10:44:29: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+03.04.2025 10:44:29: AfterLoading() method has been loaded.
+03.04.2025 10:44:29: DNS 1: 2001:4860:4860::8888
+03.04.2025 10:44:29: DNS 2: 2001:4860:4860::8844
+03.04.2025 10:44:29: DNS 3: 8.8.8.8
+03.04.2025 10:44:29: DNS 4: 8.8.4.4
+03.04.2025 10:44:31: Form1 has been minimized to notification bar!
+03.04.2025 10:44:31: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+03.04.2025 10:44:31: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1403.04.2025 10:44:31: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+03.04.2025 10:44:31: Querying network adapters!
+03.04.2025 10:44:31: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+03.04.2025 10:44:32: Displaying Form1!
+
+03.04.2025 10:44:34: Program has been started!
+03.04.2025 10:44:34: Nyanet Logger has been started!
+03.04.2025 10:44:34: Checking Admin Access from OS!
+03.04.2025 10:44:34: Admin access has been Acquired!
+03.04.2025 10:44:34: Beginning to Initializing Components!
+03.04.2025 10:44:40: Shutting down Nyanet Logger...
+03.04.2025 10:44:40: Shutting down Nyanet Logger...
+03.04.2025 10:44:40: Shutting down Nyanet Logger...
+03.04.2025 10:44:40: Shutting down Nyanet Logger...
+
+03.04.2025 10:44:55: Program has been started!
+03.04.2025 10:44:55: Nyanet Logger has been started!
+03.04.2025 10:44:55: Checking Admin Access from OS!
+03.04.2025 10:44:56: Shutting down Nyanet Logger...
+
+03.04.2025 10:44:56: Program has been started!
+03.04.2025 10:44:56: Nyanet Logger has been started!
+03.04.2025 10:44:56: Checking Admin Access from OS!
+03.04.2025 10:44:56: Admin access has been Acquired!
+03.04.2025 10:44:56: Beginning to Initializing Components!
+03.04.2025 10:44:56: Form1 has been loaded!
+03.04.2025 10:44:56: runOnce() method has been loaded!
+03.04.2025 10:44:56: DNS Redirect enabled.
+03.04.2025 10:44:56: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+03.04.2025 10:44:56: AfterLoading() method has been loaded.
+03.04.2025 10:44:56: DNS 1: 2001:4860:4860::8888
+03.04.2025 10:44:56: DNS 2: 2001:4860:4860::8844
+03.04.2025 10:44:56: DNS 3: 8.8.8.8
+03.04.2025 10:44:56: DNS 4: 8.8.4.4
+03.04.2025 10:44:58: Form1 has been minimized to notification bar!
+03.04.2025 10:44:58: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+03.04.2025 10:44:58: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1403.04.2025 10:44:58: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+03.04.2025 10:44:58: Querying network adapters!
+03.04.2025 10:44:58: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+03.04.2025 10:44:59: Displaying Form1!
+
+03.04.2025 10:45:01: Program has been started!
+03.04.2025 10:45:01: Nyanet Logger has been started!
+03.04.2025 10:45:01: Checking Admin Access from OS!
+03.04.2025 10:45:01: Admin access has been Acquired!
+03.04.2025 10:45:01: Beginning to Initializing Components!
+03.04.2025 10:45:06: Shutting down Nyanet Logger...
+03.04.2025 10:45:06: Shutting down Nyanet Logger...
+03.04.2025 10:45:06: Shutting down Nyanet Logger...
+03.04.2025 10:45:06: Shutting down Nyanet Logger...
+
+03.04.2025 10:47:00: Program has been started!
+03.04.2025 10:47:00: Nyanet Logger has been started!
+03.04.2025 10:47:00: Checking Admin Access from OS!
+03.04.2025 10:47:00: Shutting down Nyanet Logger...
+
+03.04.2025 10:47:00: Program has been started!
+03.04.2025 10:47:00: Nyanet Logger has been started!
+03.04.2025 10:47:00: Checking Admin Access from OS!
+03.04.2025 10:47:00: Admin access has been Acquired!
+03.04.2025 10:47:00: Beginning to Initializing Components!
+03.04.2025 10:47:00: Form1 has been loaded!
+03.04.2025 10:47:00: runOnce() method has been loaded!
+03.04.2025 10:47:01: DNS Redirect enabled.
+03.04.2025 10:47:01: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+03.04.2025 10:47:01: AfterLoading() method has been loaded.
+03.04.2025 10:47:01: DNS 1: 2001:4860:4860::8888
+03.04.2025 10:47:01: DNS 2: 2001:4860:4860::8844
+03.04.2025 10:47:01: DNS 3: 8.8.8.8
+03.04.2025 10:47:01: DNS 4: 8.8.4.4
+03.04.2025 10:47:02: Form1 has been minimized to notification bar!
+03.04.2025 10:47:03: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+03.04.2025 10:47:03: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1403.04.2025 10:47:03: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+03.04.2025 10:47:03: Querying network adapters!
+03.04.2025 10:47:03: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+03.04.2025 10:47:03: Displaying Form1!
+
+03.04.2025 10:47:05: Program has been started!
+03.04.2025 10:47:05: Nyanet Logger has been started!
+03.04.2025 10:47:05: Checking Admin Access from OS!
+03.04.2025 10:47:05: Admin access has been Acquired!
+03.04.2025 10:47:05: Beginning to Initializing Components!
+03.04.2025 10:47:14: Shutting down Nyanet Logger...
+03.04.2025 10:47:14: Shutting down Nyanet Logger...
+03.04.2025 10:47:14: Shutting down Nyanet Logger...
+03.04.2025 10:47:14: Shutting down Nyanet Logger...
+
+03.04.2025 10:51:31: Program has been started!
+03.04.2025 10:51:31: Nyanet Logger has been started!
+03.04.2025 10:51:31: Checking Admin Access from OS!
+03.04.2025 10:51:32: Shutting down Nyanet Logger...
+
+03.04.2025 10:51:32: Program has been started!
+03.04.2025 10:51:32: Nyanet Logger has been started!
+03.04.2025 10:51:32: Checking Admin Access from OS!
+03.04.2025 10:51:32: Admin access has been Acquired!
+03.04.2025 10:51:32: Beginning to Initializing Components!
+03.04.2025 10:51:32: Form1 has been loaded!
+03.04.2025 10:51:32: runOnce() method has been loaded!
+03.04.2025 10:51:32: DNS Redirect enabled.
+03.04.2025 10:51:32: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+03.04.2025 10:51:32: AfterLoading() method has been loaded.
+03.04.2025 10:51:32: DNS 1: 2001:4860:4860::8888
+03.04.2025 10:51:32: DNS 2: 2001:4860:4860::8844
+03.04.2025 10:51:32: DNS 3: 8.8.8.8
+03.04.2025 10:51:32: DNS 4: 8.8.4.4
+03.04.2025 10:51:34: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+03.04.2025 10:51:34: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1403.04.2025 10:51:34: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+03.04.2025 10:51:34: Querying network adapters!
+03.04.2025 10:51:34: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+03.04.2025 10:51:34: Form1 has been minimized to notification bar!
+03.04.2025 10:51:36: Displaying Form1!
+03.04.2025 10:51:45: Shutting down Nyanet Logger...
+03.04.2025 10:51:45: Shutting down Nyanet Logger...
+03.04.2025 10:51:45: Shutting down Nyanet Logger...
+
+03.04.2025 10:55:03: Program has been started!
+03.04.2025 10:55:03: Nyanet Logger has been started!
+03.04.2025 10:55:03: Checking Admin Access from OS!
+03.04.2025 10:55:04: Shutting down Nyanet Logger...
+
+03.04.2025 10:55:04: Program has been started!
+03.04.2025 10:55:04: Nyanet Logger has been started!
+03.04.2025 10:55:04: Checking Admin Access from OS!
+03.04.2025 10:55:04: Admin access has been Acquired!
+03.04.2025 10:55:04: Beginning to Initializing Components!
+03.04.2025 10:55:04: Form1 has been loaded!
+03.04.2025 10:55:04: runOnce() method has been loaded!
+03.04.2025 10:55:04: DNS Redirect enabled.
+03.04.2025 10:55:04: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+03.04.2025 10:55:04: AfterLoading() method has been loaded.
+03.04.2025 10:55:04: DNS 1: 2001:4860:4860::8888
+03.04.2025 10:55:04: DNS 2: 2001:4860:4860::8844
+03.04.2025 10:55:04: DNS 3: 8.8.8.8
+03.04.2025 10:55:04: DNS 4: 8.8.4.4
+03.04.2025 10:55:06: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+03.04.2025 10:55:06: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1403.04.2025 10:55:06: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+03.04.2025 10:55:06: Querying network adapters!
+03.04.2025 10:55:06: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+03.04.2025 10:55:12: Form1 has been minimized to notification bar!
+03.04.2025 10:55:14: Displaying Form1!
+03.04.2025 10:55:49: Displaying Form1!
+03.04.2025 10:55:51: Form1 has been minimized to notification bar!
+03.04.2025 10:55:53: Displaying Form1!
+03.04.2025 10:57:44: Shutting down Nyanet Logger...
+
+03.04.2025 11:00:50: Program has been started!
+03.04.2025 11:00:50: Nyanet Logger has been started!
+03.04.2025 11:00:50: Checking Admin Access from OS!
+03.04.2025 11:00:51: Shutting down Nyanet Logger...
+
+03.04.2025 11:00:51: Program has been started!
+03.04.2025 11:00:51: Nyanet Logger has been started!
+03.04.2025 11:00:51: Checking Admin Access from OS!
+03.04.2025 11:00:51: Admin access has been Acquired!
+03.04.2025 11:00:51: Beginning to Initializing Components!
+03.04.2025 11:00:51: Form1 has been loaded!
+03.04.2025 11:00:51: runOnce() method has been loaded!
+03.04.2025 11:00:51: DNS Redirect enabled.
+03.04.2025 11:00:51: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+03.04.2025 11:00:51: AfterLoading() method has been loaded.
+03.04.2025 11:00:51: DNS 1: 2001:4860:4860::8888
+03.04.2025 11:00:51: DNS 2: 2001:4860:4860::8844
+03.04.2025 11:00:51: DNS 3: 8.8.8.8
+03.04.2025 11:00:51: DNS 4: 8.8.4.4
+03.04.2025 11:00:53: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+03.04.2025 11:00:53: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1403.04.2025 11:00:53: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+03.04.2025 11:00:53: Querying network adapters!
+03.04.2025 11:00:53: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+03.04.2025 11:00:59: Shutting down Nyanet Logger...
+03.04.2025 11:00:59: Shutting down Nyanet Logger...
+03.04.2025 11:00:59: Shutting down Nyanet Logger...
+
+03.04.2025 11:01:01: Program has been started!
+03.04.2025 11:01:01: Nyanet Logger has been started!
+03.04.2025 11:01:01: Checking Admin Access from OS!
+03.04.2025 11:01:02: Shutting down Nyanet Logger...
+
+03.04.2025 11:01:02: Program has been started!
+03.04.2025 11:01:02: Nyanet Logger has been started!
+03.04.2025 11:01:02: Checking Admin Access from OS!
+03.04.2025 11:01:02: Admin access has been Acquired!
+03.04.2025 11:01:02: Beginning to Initializing Components!
+03.04.2025 11:01:02: Form1 has been loaded!
+03.04.2025 11:01:02: runOnce() method has been loaded!
+03.04.2025 11:01:02: DNS Redirect enabled.
+03.04.2025 11:01:02: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+03.04.2025 11:01:02: AfterLoading() method has been loaded.
+03.04.2025 11:01:02: DNS 1: 2001:4860:4860::8888
+03.04.2025 11:01:02: DNS 2: 2001:4860:4860::8844
+03.04.2025 11:01:02: DNS 3: 8.8.8.8
+03.04.2025 11:01:02: DNS 4: 8.8.4.4
+03.04.2025 11:01:04: Form1 has been minimized to notification bar!
+03.04.2025 11:01:04: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+03.04.2025 11:01:04: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1403.04.2025 11:01:04: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+03.04.2025 11:01:04: Querying network adapters!
+03.04.2025 11:01:04: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+03.04.2025 11:01:06: Displaying Form1!
+03.04.2025 11:01:52: Shutting down Nyanet Logger...
+03.04.2025 11:01:52: Shutting down Nyanet Logger...
+03.04.2025 11:01:52: Shutting down Nyanet Logger...
+
+03.04.2025 11:02:06: Program has been started!
+03.04.2025 11:02:06: Nyanet Logger has been started!
+03.04.2025 11:02:06: Checking Admin Access from OS!
+03.04.2025 11:02:07: Shutting down Nyanet Logger...
+
+03.04.2025 11:02:07: Program has been started!
+03.04.2025 11:02:07: Nyanet Logger has been started!
+03.04.2025 11:02:07: Checking Admin Access from OS!
+03.04.2025 11:02:07: Admin access has been Acquired!
+03.04.2025 11:02:07: Beginning to Initializing Components!
+03.04.2025 11:02:07: Form1 has been loaded!
+03.04.2025 11:02:07: runOnce() method has been loaded!
+03.04.2025 11:02:07: DNS Redirect enabled.
+03.04.2025 11:02:07: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+03.04.2025 11:02:07: AfterLoading() method has been loaded.
+03.04.2025 11:02:07: DNS 1: 2001:4860:4860::8888
+03.04.2025 11:02:07: DNS 2: 2001:4860:4860::8844
+03.04.2025 11:02:07: DNS 3: 8.8.8.8
+03.04.2025 11:02:07: DNS 4: 8.8.4.4
+03.04.2025 11:02:09: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+03.04.2025 11:02:09: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1403.04.2025 11:02:09: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+03.04.2025 11:02:09: Querying network adapters!
+03.04.2025 11:02:09: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+03.04.2025 11:02:10: Form1 has been minimized to notification bar!
+03.04.2025 11:02:12: Displaying Form1!
+03.04.2025 11:03:43: Shutting down Nyanet Logger...
+
+03.04.2025 11:03:55: Program has been started!
+03.04.2025 11:03:55: Nyanet Logger has been started!
+03.04.2025 11:03:55: Checking Admin Access from OS!
+03.04.2025 11:03:56: Shutting down Nyanet Logger...
+
+03.04.2025 11:03:56: Program has been started!
+03.04.2025 11:03:56: Nyanet Logger has been started!
+03.04.2025 11:03:56: Checking Admin Access from OS!
+03.04.2025 11:03:56: Admin access has been Acquired!
+03.04.2025 11:03:56: Beginning to Initializing Components!
+03.04.2025 11:03:56: Form1 has been loaded!
+03.04.2025 11:03:56: runOnce() method has been loaded!
+03.04.2025 11:03:56: DNS Redirect enabled.
+03.04.2025 11:03:56: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+03.04.2025 11:03:56: AfterLoading() method has been loaded.
+03.04.2025 11:03:56: DNS 1: 2001:4860:4860::8888
+03.04.2025 11:03:56: DNS 2: 2001:4860:4860::8844
+03.04.2025 11:03:56: DNS 3: 8.8.8.8
+03.04.2025 11:03:56: DNS 4: 8.8.4.4
+03.04.2025 11:03:57: Form1 has been minimized to notification bar!
+03.04.2025 11:03:58: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+03.04.2025 11:03:58: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1403.04.2025 11:03:58: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+03.04.2025 11:03:58: Querying network adapters!
+03.04.2025 11:03:58: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+03.04.2025 11:03:59: Displaying Form1!
+03.04.2025 11:04:40: Shutting down Nyanet Logger...
+03.04.2025 11:04:40: Shutting down Nyanet Logger...
+
+03.04.2025 11:04:42: Program has been started!
+03.04.2025 11:04:42: Nyanet Logger has been started!
+03.04.2025 11:04:42: Checking Admin Access from OS!
+03.04.2025 11:04:43: Shutting down Nyanet Logger...
+
+03.04.2025 11:04:43: Program has been started!
+03.04.2025 11:04:43: Nyanet Logger has been started!
+03.04.2025 11:04:43: Checking Admin Access from OS!
+03.04.2025 11:04:43: Admin access has been Acquired!
+03.04.2025 11:04:43: Beginning to Initializing Components!
+03.04.2025 11:04:43: Form1 has been loaded!
+03.04.2025 11:04:43: runOnce() method has been loaded!
+03.04.2025 11:04:43: DNS Redirect enabled.
+03.04.2025 11:04:43: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+03.04.2025 11:04:43: AfterLoading() method has been loaded.
+03.04.2025 11:04:43: DNS 1: 2001:4860:4860::8888
+03.04.2025 11:04:43: DNS 2: 2001:4860:4860::8844
+03.04.2025 11:04:43: DNS 3: 8.8.8.8
+03.04.2025 11:04:43: DNS 4: 8.8.4.4
+03.04.2025 11:04:45: Form1 has been minimized to notification bar!
+03.04.2025 11:04:45: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+03.04.2025 11:04:45: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1403.04.2025 11:04:45: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+03.04.2025 11:04:45: Querying network adapters!
+03.04.2025 11:04:45: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+03.04.2025 11:04:46: Displaying Form1!
+03.04.2025 11:05:45: Shutting down Nyanet Logger...
+03.04.2025 11:05:45: Shutting down Nyanet Logger...
+03.04.2025 11:05:45: Shutting down Nyanet Logger...
+
+03.04.2025 11:06:29: Program has been started!
+03.04.2025 11:06:29: Nyanet Logger has been started!
+03.04.2025 11:06:29: Checking Admin Access from OS!
+03.04.2025 11:06:29: Shutting down Nyanet Logger...
+
+03.04.2025 11:06:30: Program has been started!
+03.04.2025 11:06:30: Nyanet Logger has been started!
+03.04.2025 11:06:30: Checking Admin Access from OS!
+03.04.2025 11:06:30: Admin access has been Acquired!
+03.04.2025 11:06:30: Beginning to Initializing Components!
+03.04.2025 11:06:30: Form1 has been loaded!
+03.04.2025 11:06:30: runOnce() method has been loaded!
+03.04.2025 11:06:30: DNS Redirect enabled.
+03.04.2025 11:06:30: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+03.04.2025 11:06:30: AfterLoading() method has been loaded.
+03.04.2025 11:06:30: DNS 1: 2001:4860:4860::8888
+03.04.2025 11:06:30: DNS 2: 2001:4860:4860::8844
+03.04.2025 11:06:30: DNS 3: 8.8.8.8
+03.04.2025 11:06:30: DNS 4: 8.8.4.4
+03.04.2025 11:06:32: Shutting down Nyanet Logger...
+03.04.2025 11:06:32: Shutting down Nyanet Logger...
+03.04.2025 11:06:32: Shutting down Nyanet Logger...
+
+03.04.2025 11:06:33: Program has been started!
+03.04.2025 11:06:33: Nyanet Logger has been started!
+03.04.2025 11:06:33: Checking Admin Access from OS!
+03.04.2025 11:06:34: Shutting down Nyanet Logger...
+
+03.04.2025 11:06:34: Program has been started!
+03.04.2025 11:06:34: Nyanet Logger has been started!
+03.04.2025 11:06:34: Checking Admin Access from OS!
+03.04.2025 11:06:34: Admin access has been Acquired!
+03.04.2025 11:06:34: Beginning to Initializing Components!
+03.04.2025 11:06:34: Form1 has been loaded!
+03.04.2025 11:06:34: runOnce() method has been loaded!
+03.04.2025 11:06:34: DNS Redirect enabled.
+03.04.2025 11:06:34: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+03.04.2025 11:06:34: AfterLoading() method has been loaded.
+03.04.2025 11:06:34: DNS 1: 2001:4860:4860::8888
+03.04.2025 11:06:34: DNS 2: 2001:4860:4860::8844
+03.04.2025 11:06:34: DNS 3: 8.8.8.8
+03.04.2025 11:06:34: DNS 4: 8.8.4.4
+03.04.2025 11:06:36: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+03.04.2025 11:06:36: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1403.04.2025 11:06:36: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+03.04.2025 11:06:36: Querying network adapters!
+03.04.2025 11:06:36: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+03.04.2025 11:06:43: Form1 has been minimized to notification bar!
+03.04.2025 11:06:44: Displaying Form1!
+03.04.2025 11:07:18: Shutting down Nyanet Logger...
+03.04.2025 11:07:18: Shutting down Nyanet Logger...
+03.04.2025 11:07:18: Shutting down Nyanet Logger...
+
+03.04.2025 11:09:07: Program has been started!
+03.04.2025 11:09:07: Nyanet Logger has been started!
+03.04.2025 11:09:07: Checking Admin Access from OS!
+03.04.2025 11:09:08: Shutting down Nyanet Logger...
+
+03.04.2025 11:09:08: Program has been started!
+03.04.2025 11:09:08: Nyanet Logger has been started!
+03.04.2025 11:09:08: Checking Admin Access from OS!
+03.04.2025 11:09:08: Admin access has been Acquired!
+03.04.2025 11:09:08: Beginning to Initializing Components!
+03.04.2025 11:09:08: Form1 has been loaded!
+03.04.2025 11:09:08: runOnce() method has been loaded!
+03.04.2025 11:09:08: DNS Redirect enabled.
+03.04.2025 11:09:08: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+03.04.2025 11:09:08: AfterLoading() method has been loaded.
+03.04.2025 11:09:08: DNS 1: 2001:4860:4860::8888
+03.04.2025 11:09:08: DNS 2: 2001:4860:4860::8844
+03.04.2025 11:09:08: DNS 3: 8.8.8.8
+03.04.2025 11:09:08: DNS 4: 8.8.4.4
+03.04.2025 11:09:10: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+03.04.2025 11:09:10: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1403.04.2025 11:09:10: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+03.04.2025 11:09:10: Querying network adapters!
+03.04.2025 11:09:10: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+03.04.2025 11:09:11: Form1 has been minimized to notification bar!
+03.04.2025 11:09:12: Displaying Form1!
+03.04.2025 11:09:32: Shutting down Nyanet Logger...
+03.04.2025 11:09:32: Shutting down Nyanet Logger...
+03.04.2025 11:09:32: Shutting down Nyanet Logger...
+
+15.04.2025 14:29:17: Program has been started!
+15.04.2025 14:29:17: Nyanet Logger has been started!
+15.04.2025 14:29:17: Checking Admin Access from OS!
+15.04.2025 14:29:18: Shutting down Nyanet Logger...
+
+15.04.2025 14:29:18: Program has been started!
+15.04.2025 14:29:18: Nyanet Logger has been started!
+15.04.2025 14:29:18: Checking Admin Access from OS!
+15.04.2025 14:29:18: Admin access has been Acquired!
+15.04.2025 14:29:18: Beginning to Initializing Components!
+15.04.2025 14:29:18: Form1 has been loaded!
+15.04.2025 14:29:18: runOnce() method has been loaded!
+15.04.2025 14:29:18: DNS Redirect enabled.
+15.04.2025 14:29:18: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+15.04.2025 14:29:18: AfterLoading() method has been loaded.
+15.04.2025 14:29:20: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+15.04.2025 14:29:20: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1415.04.2025 14:29:20: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+15.04.2025 14:29:20: Querying network adapters!
+15.04.2025 14:29:20: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+15.04.2025 14:29:34: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+15.04.2025 14:29:34: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1415.04.2025 14:29:34: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+15.04.2025 14:29:34: Querying network adapters!
+15.04.2025 14:29:34: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+15.04.2025 14:29:36: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+15.04.2025 14:29:36: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1415.04.2025 14:29:36: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+15.04.2025 14:29:36: Querying network adapters!
+15.04.2025 14:29:36: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+15.04.2025 14:29:38: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+15.04.2025 14:29:38: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1415.04.2025 14:29:38: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+15.04.2025 14:29:38: Querying network adapters!
+15.04.2025 14:29:38: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+15.04.2025 14:29:40: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+15.04.2025 14:29:40: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1415.04.2025 14:29:40: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+15.04.2025 14:29:40: Querying network adapters!
+15.04.2025 14:29:40: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+15.04.2025 14:29:42: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+15.04.2025 14:29:42: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1415.04.2025 14:29:42: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+15.04.2025 14:29:42: Querying network adapters!
+15.04.2025 14:29:42: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+15.04.2025 14:29:44: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+15.04.2025 14:29:44: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1415.04.2025 14:29:44: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+15.04.2025 14:29:44: Querying network adapters!
+15.04.2025 14:29:44: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+15.04.2025 14:29:46: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+15.04.2025 14:29:46: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1415.04.2025 14:29:46: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+15.04.2025 14:29:46: Querying network adapters!
+15.04.2025 14:29:46: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+15.04.2025 14:30:31: Shutting down Nyanet Logger...
+15.04.2025 14:30:31: Shutting down Nyanet Logger...
+15.04.2025 14:30:31: Shutting down Nyanet Logger...
+
+15.04.2025 14:30:34: Program has been started!
+15.04.2025 14:30:34: Nyanet Logger has been started!
+15.04.2025 14:30:34: Checking Admin Access from OS!
+15.04.2025 14:30:35: Shutting down Nyanet Logger...
+
+15.04.2025 14:30:35: Program has been started!
+15.04.2025 14:30:35: Nyanet Logger has been started!
+15.04.2025 14:30:35: Checking Admin Access from OS!
+15.04.2025 14:30:35: Admin access has been Acquired!
+15.04.2025 14:30:35: Beginning to Initializing Components!
+15.04.2025 14:30:35: Form1 has been loaded!
+15.04.2025 14:30:35: runOnce() method has been loaded!
+15.04.2025 14:30:35: DNS Redirect enabled.
+15.04.2025 14:30:35: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+15.04.2025 14:30:35: AfterLoading() method has been loaded.
+15.04.2025 14:30:37: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+15.04.2025 14:30:37: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1415.04.2025 14:30:37: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+15.04.2025 14:30:37: Querying network adapters!
+15.04.2025 14:30:37: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+15.04.2025 14:31:31: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+15.04.2025 14:31:31: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1415.04.2025 14:31:31: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+15.04.2025 14:31:31: Querying network adapters!
+15.04.2025 14:31:31: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+15.04.2025 14:31:33: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+15.04.2025 14:31:33: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1415.04.2025 14:31:33: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+15.04.2025 14:31:33: Querying network adapters!
+15.04.2025 14:31:33: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+15.04.2025 14:31:35: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+15.04.2025 14:31:35: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1415.04.2025 14:31:35: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+15.04.2025 14:31:35: Querying network adapters!
+15.04.2025 14:31:35: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+15.04.2025 14:31:37: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+15.04.2025 14:31:37: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1415.04.2025 14:31:37: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+15.04.2025 14:31:37: Querying network adapters!
+15.04.2025 14:31:37: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+15.04.2025 14:31:39: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+15.04.2025 14:31:39: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1415.04.2025 14:31:39: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+15.04.2025 14:31:39: Querying network adapters!
+15.04.2025 14:31:39: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+15.04.2025 14:31:51: Shutting down Nyanet Logger...
+15.04.2025 14:31:51: Shutting down Nyanet Logger...
+15.04.2025 14:31:51: Shutting down Nyanet Logger...
+
+15.04.2025 14:31:53: Program has been started!
+15.04.2025 14:31:53: Nyanet Logger has been started!
+15.04.2025 14:31:53: Checking Admin Access from OS!
+15.04.2025 14:31:54: Shutting down Nyanet Logger...
+
+15.04.2025 14:31:54: Program has been started!
+15.04.2025 14:31:54: Nyanet Logger has been started!
+15.04.2025 14:31:54: Checking Admin Access from OS!
+15.04.2025 14:31:54: Admin access has been Acquired!
+15.04.2025 14:31:54: Beginning to Initializing Components!
+15.04.2025 14:31:54: Form1 has been loaded!
+15.04.2025 14:31:54: runOnce() method has been loaded!
+15.04.2025 14:31:54: DNS Redirect enabled.
+15.04.2025 14:31:54: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+15.04.2025 14:31:54: AfterLoading() method has been loaded.
+15.04.2025 14:31:56: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+15.04.2025 14:31:56: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1415.04.2025 14:31:56: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+15.04.2025 14:31:56: Querying network adapters!
+15.04.2025 14:31:56: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+15.04.2025 14:31:58: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+15.04.2025 14:31:58: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1415.04.2025 14:31:58: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+15.04.2025 14:31:58: Querying network adapters!
+15.04.2025 14:31:58: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+15.04.2025 14:32:00: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+15.04.2025 14:32:00: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1415.04.2025 14:32:00: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+15.04.2025 14:32:00: Querying network adapters!
+15.04.2025 14:32:00: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+15.04.2025 14:32:02: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+15.04.2025 14:32:02: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1415.04.2025 14:32:02: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+15.04.2025 14:32:02: Querying network adapters!
+15.04.2025 14:32:02: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+15.04.2025 14:33:22: Shutting down Nyanet Logger...
+15.04.2025 14:33:22: Shutting down Nyanet Logger...
+15.04.2025 14:33:22: Shutting down Nyanet Logger...
+
+15.04.2025 14:33:26: Program has been started!
+15.04.2025 14:33:26: Nyanet Logger has been started!
+15.04.2025 14:33:26: Checking Admin Access from OS!
+15.04.2025 14:33:26: Shutting down Nyanet Logger...
+
+15.04.2025 14:33:26: Program has been started!
+15.04.2025 14:33:26: Nyanet Logger has been started!
+15.04.2025 14:33:26: Checking Admin Access from OS!
+15.04.2025 14:33:26: Admin access has been Acquired!
+15.04.2025 14:33:26: Beginning to Initializing Components!
+15.04.2025 14:33:27: Form1 has been loaded!
+15.04.2025 14:33:27: runOnce() method has been loaded!
+15.04.2025 14:33:27: DNS Redirect enabled.
+15.04.2025 14:33:27: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+15.04.2025 14:33:27: AfterLoading() method has been loaded.
+15.04.2025 14:33:29: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+15.04.2025 14:33:29: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1415.04.2025 14:33:29: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+15.04.2025 14:33:29: Querying network adapters!
+15.04.2025 14:33:29: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+15.04.2025 14:33:33: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+15.04.2025 14:33:33: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1415.04.2025 14:33:33: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+15.04.2025 14:33:33: Querying network adapters!
+15.04.2025 14:33:33: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+15.04.2025 14:33:35: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+15.04.2025 14:33:35: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1415.04.2025 14:33:35: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+15.04.2025 14:33:35: Querying network adapters!
+15.04.2025 14:33:35: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+15.04.2025 14:33:36: Shutting down Nyanet Logger...
+15.04.2025 14:33:36: Shutting down Nyanet Logger...
+15.04.2025 14:33:36: Shutting down Nyanet Logger...
+
+15.04.2025 14:47:41: Program has been started!
+15.04.2025 14:47:41: Nyanet Logger has been started!
+15.04.2025 14:47:41: Checking Admin Access from OS!
+15.04.2025 14:47:42: Shutting down Nyanet Logger...
+
+15.04.2025 14:47:42: Program has been started!
+15.04.2025 14:47:42: Nyanet Logger has been started!
+15.04.2025 14:47:42: Checking Admin Access from OS!
+15.04.2025 14:47:42: Admin access has been Acquired!
+15.04.2025 14:47:42: Beginning to Initializing Components!
+15.04.2025 14:47:42: Form1 has been loaded!
+15.04.2025 14:47:42: runOnce() method has been loaded!
+15.04.2025 14:47:42: DNS Redirect enabled.
+15.04.2025 14:47:42: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+15.04.2025 14:47:42: AfterLoading() method has been loaded.
+15.04.2025 14:47:43: DNS 1: 2620:fe::11
+15.04.2025 14:47:43: DNS 2: 2620:fe::fe:11
+15.04.2025 14:47:43: DNS 3: 9.9.9.11
+15.04.2025 14:47:43: DNS 4: 149.112.112.11
+15.04.2025 14:47:44: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+15.04.2025 14:47:44: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1415.04.2025 14:47:44: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+15.04.2025 14:47:45: Querying network adapters!
+15.04.2025 14:47:45: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+15.04.2025 14:47:47: DNS 1: 2620:fe::11
+15.04.2025 14:47:47: DNS 2: 2620:fe::fe:11
+15.04.2025 14:47:47: DNS 3: 9.9.9.11
+15.04.2025 14:47:47: DNS 4: 149.112.112.11
+15.04.2025 14:47:51: DNS 1: 2620:fe::11
+15.04.2025 14:47:51: DNS 2: 2620:fe::fe:11
+15.04.2025 14:47:51: DNS 3: 9.9.9.11
+15.04.2025 14:47:51: DNS 4: 149.112.112.11
+15.04.2025 14:47:55: DNS 1: 2620:fe::11
+15.04.2025 14:47:55: DNS 2: 2620:fe::fe:11
+15.04.2025 14:47:55: DNS 3: 9.9.9.11
+15.04.2025 14:47:55: DNS 4: 149.112.112.11
+15.04.2025 14:47:59: DNS 1: 2620:fe::11
+15.04.2025 14:47:59: DNS 2: 2620:fe::fe:11
+15.04.2025 14:47:59: DNS 3: 9.9.9.11
+15.04.2025 14:47:59: DNS 4: 149.112.112.11
+15.04.2025 14:48:03: DNS 1: 2620:fe::11
+15.04.2025 14:48:03: DNS 2: 2620:fe::fe:11
+15.04.2025 14:48:03: DNS 3: 9.9.9.11
+15.04.2025 14:48:03: DNS 4: 149.112.112.11
+15.04.2025 14:48:07: DNS 1: 2620:fe::11
+15.04.2025 14:48:07: DNS 2: 2620:fe::fe:11
+15.04.2025 14:48:07: DNS 3: 9.9.9.11
+15.04.2025 14:48:07: DNS 4: 149.112.112.11
+15.04.2025 14:48:11: DNS 1: 2620:fe::11
+15.04.2025 14:48:11: DNS 2: 2620:fe::fe:11
+15.04.2025 14:48:11: DNS 3: 9.9.9.11
+15.04.2025 14:48:11: DNS 4: 149.112.112.11
+15.04.2025 14:48:15: DNS 1: 2620:fe::11
+15.04.2025 14:48:15: DNS 2: 2620:fe::fe:11
+15.04.2025 14:48:15: DNS 3: 9.9.9.11
+15.04.2025 14:48:15: DNS 4: 149.112.112.11
+15.04.2025 14:48:19: DNS 1: 2620:fe::11
+15.04.2025 14:48:19: DNS 2: 2620:fe::fe:11
+15.04.2025 14:48:19: DNS 3: 9.9.9.11
+15.04.2025 14:48:19: DNS 4: 149.112.112.11
+15.04.2025 14:48:23: DNS 1: 2620:fe::11
+15.04.2025 14:48:23: DNS 2: 2620:fe::fe:11
+15.04.2025 14:48:23: DNS 3: 9.9.9.11
+15.04.2025 14:48:23: DNS 4: 149.112.112.11
+15.04.2025 14:48:27: DNS 1: 2620:fe::11
+15.04.2025 14:48:27: DNS 2: 2620:fe::fe:11
+15.04.2025 14:48:27: DNS 3: 9.9.9.11
+15.04.2025 14:48:27: DNS 4: 149.112.112.11
+15.04.2025 14:48:31: DNS 1: 2620:fe::11
+15.04.2025 14:48:31: DNS 2: 2620:fe::fe:11
+15.04.2025 14:48:31: DNS 3: 9.9.9.11
+15.04.2025 14:48:31: DNS 4: 149.112.112.11
+15.04.2025 14:48:35: DNS 1: 2620:fe::11
+15.04.2025 14:48:35: DNS 2: 2620:fe::fe:11
+15.04.2025 14:48:35: DNS 3: 9.9.9.11
+15.04.2025 14:48:35: DNS 4: 149.112.112.11
+15.04.2025 14:48:39: DNS 1: 2620:fe::11
+15.04.2025 14:48:39: DNS 2: 2620:fe::fe:11
+15.04.2025 14:48:39: DNS 3: 9.9.9.11
+15.04.2025 14:48:39: DNS 4: 149.112.112.11
+15.04.2025 14:48:43: DNS 1: 2620:fe::11
+15.04.2025 14:48:43: DNS 2: 2620:fe::fe:11
+15.04.2025 14:48:43: DNS 3: 9.9.9.11
+15.04.2025 14:48:43: DNS 4: 149.112.112.11
+15.04.2025 14:48:47: DNS 1: 2620:fe::11
+15.04.2025 14:48:47: DNS 2: 2620:fe::fe:11
+15.04.2025 14:48:47: DNS 3: 9.9.9.11
+15.04.2025 14:48:47: DNS 4: 149.112.112.11
+15.04.2025 14:48:51: DNS 1: 2620:fe::11
+15.04.2025 14:48:51: DNS 2: 2620:fe::fe:11
+15.04.2025 14:48:51: DNS 3: 9.9.9.11
+15.04.2025 14:48:51: DNS 4: 149.112.112.11
+15.04.2025 14:48:55: DNS 1: 2620:fe::11
+15.04.2025 14:48:55: DNS 2: 2620:fe::fe:11
+15.04.2025 14:48:55: DNS 3: 9.9.9.11
+15.04.2025 14:48:55: DNS 4: 149.112.112.11
+15.04.2025 14:48:59: DNS 1: 2620:fe::11
+15.04.2025 14:48:59: DNS 2: 2620:fe::fe:11
+15.04.2025 14:48:59: DNS 3: 9.9.9.11
+15.04.2025 14:48:59: DNS 4: 149.112.112.11
+15.04.2025 14:49:03: DNS 1: 2620:fe::11
+15.04.2025 14:49:03: DNS 2: 2620:fe::fe:11
+15.04.2025 14:49:03: DNS 3: 9.9.9.11
+15.04.2025 14:49:03: DNS 4: 149.112.112.11
+15.04.2025 14:49:07: DNS 1: 2620:fe::11
+15.04.2025 14:49:07: DNS 2: 2620:fe::fe:11
+15.04.2025 14:49:07: DNS 3: 9.9.9.11
+15.04.2025 14:49:07: DNS 4: 149.112.112.11
+15.04.2025 14:49:11: DNS 1: 2620:fe::11
+15.04.2025 14:49:11: DNS 2: 2620:fe::fe:11
+15.04.2025 14:49:11: DNS 3: 9.9.9.11
+15.04.2025 14:49:11: DNS 4: 149.112.112.11
+15.04.2025 14:49:15: DNS 1: 2620:fe::11
+15.04.2025 14:49:15: DNS 2: 2620:fe::fe:11
+15.04.2025 14:49:15: DNS 3: 9.9.9.11
+15.04.2025 14:49:15: DNS 4: 149.112.112.11
+15.04.2025 14:49:19: DNS 1: 2620:fe::11
+15.04.2025 14:49:19: DNS 2: 2620:fe::fe:11
+15.04.2025 14:49:19: DNS 3: 9.9.9.11
+15.04.2025 14:49:19: DNS 4: 149.112.112.11
+15.04.2025 14:49:23: DNS 1: 2620:fe::11
+15.04.2025 14:49:23: DNS 2: 2620:fe::fe:11
+15.04.2025 14:49:23: DNS 3: 9.9.9.11
+15.04.2025 14:49:23: DNS 4: 149.112.112.11
+15.04.2025 14:49:27: DNS 1: 2620:fe::11
+15.04.2025 14:49:27: DNS 2: 2620:fe::fe:11
+15.04.2025 14:49:27: DNS 3: 9.9.9.11
+15.04.2025 14:49:27: DNS 4: 149.112.112.11
+15.04.2025 14:49:31: DNS 1: 2620:fe::11
+15.04.2025 14:49:31: DNS 2: 2620:fe::fe:11
+15.04.2025 14:49:31: DNS 3: 9.9.9.11
+15.04.2025 14:49:31: DNS 4: 149.112.112.11
+15.04.2025 14:49:35: DNS 1: 2620:fe::11
+15.04.2025 14:49:35: DNS 2: 2620:fe::fe:11
+15.04.2025 14:49:35: DNS 3: 9.9.9.11
+15.04.2025 14:49:35: DNS 4: 149.112.112.11
+15.04.2025 14:49:39: DNS 1: 2620:fe::11
+15.04.2025 14:49:39: DNS 2: 2620:fe::fe:11
+15.04.2025 14:49:39: DNS 3: 9.9.9.11
+15.04.2025 14:49:39: DNS 4: 149.112.112.11
+15.04.2025 14:49:43: DNS 1: 2620:fe::11
+15.04.2025 14:49:43: DNS 2: 2620:fe::fe:11
+15.04.2025 14:49:43: DNS 3: 9.9.9.11
+15.04.2025 14:49:43: DNS 4: 149.112.112.11
+15.04.2025 14:49:47: DNS 1: 2620:fe::11
+15.04.2025 14:49:47: DNS 2: 2620:fe::fe:11
+15.04.2025 14:49:47: DNS 3: 9.9.9.11
+15.04.2025 14:49:47: DNS 4: 149.112.112.11
+15.04.2025 14:49:51: DNS 1: 2620:fe::11
+15.04.2025 14:49:51: DNS 2: 2620:fe::fe:11
+15.04.2025 14:49:51: DNS 3: 9.9.9.11
+15.04.2025 14:49:51: DNS 4: 149.112.112.11
+15.04.2025 14:49:55: DNS 1: 2620:fe::11
+15.04.2025 14:49:55: DNS 2: 2620:fe::fe:11
+15.04.2025 14:49:55: DNS 3: 9.9.9.11
+15.04.2025 14:49:55: DNS 4: 149.112.112.11
+15.04.2025 14:49:59: DNS 1: 2620:fe::11
+15.04.2025 14:49:59: DNS 2: 2620:fe::fe:11
+15.04.2025 14:49:59: DNS 3: 9.9.9.11
+15.04.2025 14:49:59: DNS 4: 149.112.112.11
+15.04.2025 14:50:03: DNS 1: 2620:fe::11
+15.04.2025 14:50:03: DNS 2: 2620:fe::fe:11
+15.04.2025 14:50:03: DNS 3: 9.9.9.11
+15.04.2025 14:50:03: DNS 4: 149.112.112.11
+15.04.2025 14:50:07: DNS 1: 2620:fe::11
+15.04.2025 14:50:07: DNS 2: 2620:fe::fe:11
+15.04.2025 14:50:07: DNS 3: 9.9.9.11
+15.04.2025 14:50:07: DNS 4: 149.112.112.11
+15.04.2025 14:50:11: DNS 1: 2620:fe::11
+15.04.2025 14:50:11: DNS 2: 2620:fe::fe:11
+15.04.2025 14:50:11: DNS 3: 9.9.9.11
+15.04.2025 14:50:11: DNS 4: 149.112.112.11
+15.04.2025 14:50:15: DNS 1: 2620:fe::11
+15.04.2025 14:50:15: DNS 2: 2620:fe::fe:11
+15.04.2025 14:50:15: DNS 3: 9.9.9.11
+15.04.2025 14:50:15: DNS 4: 149.112.112.11
+15.04.2025 14:50:19: DNS 1: 2620:fe::11
+15.04.2025 14:50:19: DNS 2: 2620:fe::fe:11
+15.04.2025 14:50:19: DNS 3: 9.9.9.11
+15.04.2025 14:50:19: DNS 4: 149.112.112.11
+15.04.2025 14:50:23: DNS 1: 2620:fe::11
+15.04.2025 14:50:23: DNS 2: 2620:fe::fe:11
+15.04.2025 14:50:23: DNS 3: 9.9.9.11
+15.04.2025 14:50:23: DNS 4: 149.112.112.11
+15.04.2025 14:50:27: DNS 1: 2620:fe::11
+15.04.2025 14:50:27: DNS 2: 2620:fe::fe:11
+15.04.2025 14:50:27: DNS 3: 9.9.9.11
+15.04.2025 14:50:27: DNS 4: 149.112.112.11
+15.04.2025 14:50:31: DNS 1: 2620:fe::11
+15.04.2025 14:50:31: DNS 2: 2620:fe::fe:11
+15.04.2025 14:50:31: DNS 3: 9.9.9.11
+15.04.2025 14:50:31: DNS 4: 149.112.112.11
+15.04.2025 14:50:35: DNS 1: 2620:fe::11
+15.04.2025 14:50:35: DNS 2: 2620:fe::fe:11
+15.04.2025 14:50:35: DNS 3: 9.9.9.11
+15.04.2025 14:50:35: DNS 4: 149.112.112.11
+15.04.2025 14:50:39: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+15.04.2025 14:50:39: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1415.04.2025 14:50:39: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+15.04.2025 14:50:39: Querying network adapters!
+15.04.2025 14:50:39: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+15.04.2025 14:50:40: DNS 1: 2620:fe::11
+15.04.2025 14:50:40: DNS 2: 2620:fe::fe:11
+15.04.2025 14:50:40: DNS 3: 9.9.9.11
+15.04.2025 14:50:40: DNS 4: 149.112.112.11
+15.04.2025 14:50:43: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+15.04.2025 14:50:43: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1415.04.2025 14:50:43: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+15.04.2025 14:50:43: Querying network adapters!
+15.04.2025 14:50:43: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+15.04.2025 14:50:44: DNS 1: 2620:fe::11
+15.04.2025 14:50:44: DNS 2: 2620:fe::fe:11
+15.04.2025 14:50:44: DNS 3: 9.9.9.11
+15.04.2025 14:50:44: DNS 4: 149.112.112.11
+15.04.2025 14:50:45: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+15.04.2025 14:50:45: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1415.04.2025 14:50:45: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+15.04.2025 14:50:45: Querying network adapters!
+15.04.2025 14:50:45: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+15.04.2025 14:50:47: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+15.04.2025 14:50:47: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1415.04.2025 14:50:47: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+15.04.2025 14:50:47: Querying network adapters!
+15.04.2025 14:50:47: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+15.04.2025 14:50:48: DNS 1: 2620:fe::11
+15.04.2025 14:50:48: DNS 2: 2620:fe::fe:11
+15.04.2025 14:50:48: DNS 3: 9.9.9.11
+15.04.2025 14:50:48: DNS 4: 149.112.112.11
+15.04.2025 14:50:48: Called setDNSValues() => Setting DNS Server variables...
+15.04.2025 14:50:48: Setting [D]NS [O]ver [H]TTPS servers.
+15.04.2025 14:50:48: DoH: DNSv4_1: 8.8.8.8 DNSv4_2: 8.8.4.4 DNSv6_1: 2001:4860:4860::8888 DNSv6_2: 2001:4860:4860::8844 HTTPS_TEMPLATE: https://dns.google/dns-query
+15.04.2025 14:50:49: COMMAND: CMD /C REG ADD "HKLM\SOFTWARE\Policies\Microsoft\Windows NT\DNSClient" /F
+15.04.2025 14:50:49: OUTPUT: OK.
+15.04.2025 14:50:51: COMMAND: CMD /C REG ADD "HKLM\SOFTWARE\Policies\Microsoft\Windows NT\DNSClient" /v DoHPolicy /t REG_DWORD /d 2 /F
+15.04.2025 14:50:51: OUTPUT: OK.
+15.04.2025 14:50:52: DNS 1: 2620:fe::11
+15.04.2025 14:50:52: DNS 2: 2620:fe::fe:11
+15.04.2025 14:50:52: DNS 3: 9.9.9.11
+15.04.2025 14:50:52: DNS 4: 149.112.112.11
+15.04.2025 14:50:53: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters\DohWellKnownServers" /F
+15.04.2025 14:50:53: OUTPUT: OK.
+15.04.2025 14:50:55: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters\DohWellKnownServers\8.8.8.8" /F
+15.04.2025 14:50:55: OUTPUT: OK.
+15.04.2025 14:50:56: DNS 1: 2620:fe::11
+15.04.2025 14:50:56: DNS 2: 2620:fe::fe:11
+15.04.2025 14:50:56: DNS 3: 9.9.9.11
+15.04.2025 14:50:56: DNS 4: 149.112.112.11
+15.04.2025 14:50:57: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters\DohWellKnownServers\8.8.8.8" /v Template /t REG_SZ /d https://dns.google/dns-query /F
+15.04.2025 14:50:57: OUTPUT: OK.
+15.04.2025 14:50:59: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters\DohWellKnownServers\8.8.4.4" /F
+15.04.2025 14:50:59: OUTPUT: OK.
+15.04.2025 14:51:00: DNS 1: 2620:fe::11
+15.04.2025 14:51:00: DNS 2: 2620:fe::fe:11
+15.04.2025 14:51:00: DNS 3: 9.9.9.11
+15.04.2025 14:51:00: DNS 4: 149.112.112.11
+15.04.2025 14:51:02: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters\DohWellKnownServers\8.8.4.4" /v Template /t REG_SZ /d https://dns.google/dns-query /F
+15.04.2025 14:51:02: OUTPUT: OK.
+15.04.2025 14:51:04: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters\DohWellKnownServers\2001:4860:4860::8888" /F
+15.04.2025 14:51:04: OUTPUT: OK.
+15.04.2025 14:51:04: DNS 1: 2620:fe::11
+15.04.2025 14:51:04: DNS 2: 2620:fe::fe:11
+15.04.2025 14:51:04: DNS 3: 9.9.9.11
+15.04.2025 14:51:04: DNS 4: 149.112.112.11
+15.04.2025 14:51:06: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters\DohWellKnownServers\2001:4860:4860::8888" /v Template /t REG_SZ /d https://dns.google/dns-query /F
+15.04.2025 14:51:06: OUTPUT: OK.
+15.04.2025 14:51:08: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters\DohWellKnownServers\2001:4860:4860::8844" /F
+15.04.2025 14:51:08: OUTPUT: OK.
+15.04.2025 14:51:08: DNS 1: 2620:fe::11
+15.04.2025 14:51:08: DNS 2: 2620:fe::fe:11
+15.04.2025 14:51:08: DNS 3: 9.9.9.11
+15.04.2025 14:51:08: DNS 4: 149.112.112.11
+15.04.2025 14:51:10: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters\DohWellKnownServers\2001:4860:4860::8844" /v Template /t REG_SZ /d https://dns.google/dns-query /F
+15.04.2025 14:51:10: OUTPUT: OK.
+15.04.2025 14:51:12: DNS 1: 2620:fe::11
+15.04.2025 14:51:12: DNS 2: 2620:fe::fe:11
+15.04.2025 14:51:12: DNS 3: 9.9.9.11
+15.04.2025 14:51:12: DNS 4: 149.112.112.11
+15.04.2025 14:51:16: DNS 1: 2620:fe::11
+15.04.2025 14:51:16: DNS 2: 2620:fe::fe:11
+15.04.2025 14:51:16: DNS 3: 9.9.9.11
+15.04.2025 14:51:16: DNS 4: 149.112.112.11
+15.04.2025 14:51:20: DNS 1: 2620:fe::11
+15.04.2025 14:51:20: DNS 2: 2620:fe::fe:11
+15.04.2025 14:51:20: DNS 3: 9.9.9.11
+15.04.2025 14:51:20: DNS 4: 149.112.112.11
+15.04.2025 14:51:22: COMMAND: CMD /C gpupdate /force
+15.04.2025 14:51:22: OUTPUT: Updating policy...15.04.2025 14:51:22: OUTPUT: 15.04.2025 14:51:22: OUTPUT: Computer Policy update has completed successfully.15.04.2025 14:51:22: OUTPUT: User Policy update has completed successfully.
+15.04.2025 14:51:24: COMMAND: CMD /C netsh interface ipv4 set dns name="Ethernet" source=static address=none
+15.04.2025 14:51:24: OUTPUT: There are no Domain Name Servers (DNS) configured on this computer.
+15.04.2025 14:51:24: DNS 1: 2620:fe::11
+15.04.2025 14:51:24: DNS 2: 2620:fe::fe:11
+15.04.2025 14:51:24: DNS 3: 9.9.9.11
+15.04.2025 14:51:24: DNS 4: 149.112.112.11
+15.04.2025 14:51:26: COMMAND: CMD /C netsh interface ipv6 set dns name="Ethernet" source=static address=none
+15.04.2025 14:51:26: OUTPUT: There are no Domain Name Servers (DNS) configured on this computer.
+15.04.2025 14:51:28: DNS 1: 8.8.8.8
+15.04.2025 14:51:28: DNS 2: 8.8.4.4
+15.04.2025 14:51:28: DNS 3: 192.168.1.1
+15.04.2025 14:51:28: DNS 4: fe80::1%11
+15.04.2025 14:51:32: COMMAND: CMD /C netsh interface ipv6 add dnsservers "Ethernet" 2001:4860:4860::8888 index=1
+15.04.2025 14:51:32: OUTPUT: The configured DNS server is incorrect or does not exist.
+15.04.2025 14:51:32: DNS 1: 8.8.8.8
+15.04.2025 14:51:32: DNS 2: 8.8.4.4
+15.04.2025 14:51:32: DNS 3: fe80::1%11
+15.04.2025 14:51:34: COMMAND: CMD /C netsh interface ipv6 add dnsservers "Ethernet" 2001:4860:4860::8844 index=2
+15.04.2025 14:51:34: OUTPUT: The configured DNS server is incorrect or does not exist.
+15.04.2025 14:51:36: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}" /F
+15.04.2025 14:51:36: OUTPUT: OK.
+15.04.2025 14:51:36: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:51:36: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:51:36: DNS 3: 8.8.8.8
+15.04.2025 14:51:36: DNS 4: 8.8.4.4
+15.04.2025 14:51:38: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings" /F
+15.04.2025 14:51:38: OUTPUT: OK.
+15.04.2025 14:51:40: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings\Doh" /F
+15.04.2025 14:51:40: OUTPUT: OK.
+15.04.2025 14:51:40: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:51:40: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:51:40: DNS 3: 8.8.8.8
+15.04.2025 14:51:40: DNS 4: 8.8.4.4
+15.04.2025 14:51:42: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings\Doh6" /F
+15.04.2025 14:51:42: OUTPUT: OK.
+15.04.2025 14:51:44: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings\Doh\8.8.8.8" /F
+15.04.2025 14:51:44: OUTPUT: OK.
+15.04.2025 14:51:44: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:51:44: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:51:44: DNS 3: 8.8.8.8
+15.04.2025 14:51:44: DNS 4: 8.8.4.4
+15.04.2025 14:51:46: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings\Doh\8.8.4.4" /F
+15.04.2025 14:51:46: OUTPUT: OK.
+15.04.2025 14:51:48: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings\Doh6\2001:4860:4860::8888" /F
+15.04.2025 14:51:48: OUTPUT: OK.
+15.04.2025 14:51:48: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:51:48: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:51:48: DNS 3: 8.8.8.8
+15.04.2025 14:51:48: DNS 4: 8.8.4.4
+15.04.2025 14:51:50: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings\Doh6\2001:4860:4860::8888" /F
+15.04.2025 14:51:50: OUTPUT: OK.
+15.04.2025 14:51:52: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings\Doh\8.8.8.8" /v DohTemplate /t REG_SZ /d https://dns.google/dns-query /F
+15.04.2025 14:51:52: OUTPUT: OK.
+15.04.2025 14:51:52: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:51:52: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:51:52: DNS 3: 8.8.8.8
+15.04.2025 14:51:52: DNS 4: 8.8.4.4
+15.04.2025 14:51:54: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings\Doh\8.8.4.4" /v DohTemplate /t REG_SZ /d https://dns.google/dns-query /F
+15.04.2025 14:51:54: OUTPUT: OK.
+15.04.2025 14:51:56: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings\Doh6\2001:4860:4860::8888" /v DohTemplate /t REG_SZ /d https://dns.google/dns-query /F
+15.04.2025 14:51:56: OUTPUT: OK.
+15.04.2025 14:51:56: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:51:56: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:51:56: DNS 3: 8.8.8.8
+15.04.2025 14:51:56: DNS 4: 8.8.4.4
+15.04.2025 14:51:58: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings\Doh6\2001:4860:4860::8844" /v DohTemplate /t REG_SZ /d https://dns.google/dns-query /F
+15.04.2025 14:51:58: OUTPUT: OK.
+15.04.2025 14:52:00: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings\Doh\8.8.8.8" /v DohFlags /t REG_QWORD /d "0x1" /F
+15.04.2025 14:52:00: OUTPUT: OK.
+15.04.2025 14:52:00: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:52:00: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:52:00: DNS 3: 8.8.8.8
+15.04.2025 14:52:00: DNS 4: 8.8.4.4
+15.04.2025 14:52:02: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings\Doh\8.8.4.4" /v DohFlags /t REG_QWORD /d "0x1" /F
+15.04.2025 14:52:02: OUTPUT: OK.
+15.04.2025 14:52:04: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings\Doh6\2001:4860:4860::8888" /v DohFlags /t REG_QWORD /d "0x1" /F
+15.04.2025 14:52:04: OUTPUT: OK.
+15.04.2025 14:52:04: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:52:04: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:52:04: DNS 3: 8.8.8.8
+15.04.2025 14:52:04: DNS 4: 8.8.4.4
+15.04.2025 14:52:06: COMMAND: CMD /C REG ADD "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\{89B7D29B-40B4-4AEA-94C3-477BC697CC52}\DohInterfaceSettings\Doh6\2001:4860:4860::8844" /v DohFlags /t REG_QWORD /d "0x1" /F
+15.04.2025 14:52:06: OUTPUT: OK.
+15.04.2025 14:52:08: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:52:08: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:52:08: DNS 3: 8.8.8.8
+15.04.2025 14:52:08: DNS 4: 8.8.4.4
+15.04.2025 14:52:12: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:52:12: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:52:12: DNS 3: 8.8.8.8
+15.04.2025 14:52:12: DNS 4: 8.8.4.4
+15.04.2025 14:52:16: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:52:16: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:52:16: DNS 3: 8.8.8.8
+15.04.2025 14:52:16: DNS 4: 8.8.4.4
+15.04.2025 14:52:20: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:52:20: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:52:20: DNS 3: 8.8.8.8
+15.04.2025 14:52:20: DNS 4: 8.8.4.4
+15.04.2025 14:52:24: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:52:24: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:52:24: DNS 3: 8.8.8.8
+15.04.2025 14:52:24: DNS 4: 8.8.4.4
+15.04.2025 14:52:28: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:52:28: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:52:28: DNS 3: 8.8.8.8
+15.04.2025 14:52:28: DNS 4: 8.8.4.4
+15.04.2025 14:52:32: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:52:32: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:52:32: DNS 3: 8.8.8.8
+15.04.2025 14:52:32: DNS 4: 8.8.4.4
+15.04.2025 14:52:36: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:52:36: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:52:36: DNS 3: 8.8.8.8
+15.04.2025 14:52:36: DNS 4: 8.8.4.4
+15.04.2025 14:52:40: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:52:40: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:52:40: DNS 3: 8.8.8.8
+15.04.2025 14:52:40: DNS 4: 8.8.4.4
+15.04.2025 14:52:44: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:52:44: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:52:44: DNS 3: 8.8.8.8
+15.04.2025 14:52:44: DNS 4: 8.8.4.4
+15.04.2025 14:52:48: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:52:48: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:52:48: DNS 3: 8.8.8.8
+15.04.2025 14:52:48: DNS 4: 8.8.4.4
+15.04.2025 14:52:52: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:52:52: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:52:52: DNS 3: 8.8.8.8
+15.04.2025 14:52:52: DNS 4: 8.8.4.4
+15.04.2025 14:52:56: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:52:56: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:52:56: DNS 3: 8.8.8.8
+15.04.2025 14:52:56: DNS 4: 8.8.4.4
+15.04.2025 14:53:00: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:53:00: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:53:00: DNS 3: 8.8.8.8
+15.04.2025 14:53:00: DNS 4: 8.8.4.4
+15.04.2025 14:53:04: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:53:04: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:53:04: DNS 3: 8.8.8.8
+15.04.2025 14:53:04: DNS 4: 8.8.4.4
+15.04.2025 14:53:08: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:53:08: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:53:08: DNS 3: 8.8.8.8
+15.04.2025 14:53:08: DNS 4: 8.8.4.4
+15.04.2025 14:53:09: Shutting down Nyanet Logger...
+15.04.2025 14:53:09: Shutting down Nyanet Logger...
+15.04.2025 14:53:10: Shutting down Nyanet Logger...
+
+15.04.2025 14:54:50: Program has been started!
+15.04.2025 14:54:50: Nyanet Logger has been started!
+15.04.2025 14:54:50: Checking Admin Access from OS!
+15.04.2025 14:54:51: Shutting down Nyanet Logger...
+
+15.04.2025 14:54:51: Program has been started!
+15.04.2025 14:54:51: Nyanet Logger has been started!
+15.04.2025 14:54:51: Checking Admin Access from OS!
+15.04.2025 14:54:51: Admin access has been Acquired!
+15.04.2025 14:54:51: Beginning to Initializing Components!
+15.04.2025 14:54:51: Form1 has been loaded!
+15.04.2025 14:54:51: runOnce() method has been loaded!
+15.04.2025 14:54:51: DNS Redirect enabled.
+15.04.2025 14:54:51: DNS Redirect: DNSv4: 9.9.9.9 DNSv4_Port: 9953 DNSv6: none DNSv6_Port: none
+15.04.2025 14:54:51: AfterLoading() method has been loaded.
+15.04.2025 14:54:51: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:54:51: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:54:51: DNS 3: 8.8.8.8
+15.04.2025 14:54:51: DNS 4: 8.8.4.4
+15.04.2025 14:54:53: COMMAND: CMD /C reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards"
+15.04.2025 14:54:53: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\1415.04.2025 14:54:53: OUTPUT: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards\2
+15.04.2025 14:54:53: Querying network adapters!
+15.04.2025 14:54:53: Ethernet | Realtek PCIe GbE Family Controller | {89B7D29B-40B4-4AEA-94C3-477BC697CC52}
+15.04.2025 14:54:55: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:54:55: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:54:55: DNS 3: 8.8.8.8
+15.04.2025 14:54:55: DNS 4: 8.8.4.4
+15.04.2025 14:54:59: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:54:59: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:54:59: DNS 3: 8.8.8.8
+15.04.2025 14:54:59: DNS 4: 8.8.4.4
+15.04.2025 14:55:03: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:55:03: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:55:03: DNS 3: 8.8.8.8
+15.04.2025 14:55:03: DNS 4: 8.8.4.4
+15.04.2025 14:55:07: DNS 1: 2001:4860:4860::8888
+15.04.2025 14:55:07: DNS 2: 2001:4860:4860::8844
+15.04.2025 14:55:07: DNS 3: 8.8.8.8
+15.04.2025 14:55:07: DNS 4: 8.8.4.4
+15.04.2025 14:55:10: Shutting down Nyanet Logger...
+15.04.2025 14:55:10: Shutting down Nyanet Logger...
+15.04.2025 14:55:10: Shutting down Nyanet Logger...
